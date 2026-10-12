@@ -1,0 +1,233 @@
+[
+  {
+    "PageID": "P01",
+    "Page": "Home",
+    "Route": "index.html",
+    "FormID": "finder-form",
+    "Purpose": "tire-availability-prefill",
+    "CustomerEmail": "N/A \u2014 prefill widget",
+    "BusinessDestination": "N/A",
+    "CustomerReceipt": "N/A",
+    "Endpoint": "Prefill only"
+  },
+  {
+    "PageID": "P01",
+    "Page": "Home",
+    "Route": "index.html",
+    "FormID": "request-form",
+    "Purpose": "home-central-request",
+    "CustomerEmail": "Required",
+    "BusinessDestination": "tirewebdev4life@gmail.com",
+    "CustomerReceipt": "Required",
+    "Endpoint": "https://script.google.com/macros/s/AKfycbxPfe_Wyb3SVJAYMHFgTAQ5qCO4qsDLU1q9lCylr6nAeWE4nJt1ZEV1SRgja3gcnDHJAg/exec"
+  },
+  {
+    "PageID": "P02",
+    "Page": "Tires Landing",
+    "Route": "tires.html",
+    "FormID": "finder-form",
+    "Purpose": "",
+    "CustomerEmail": "N/A \u2014 prefill widget",
+    "BusinessDestination": "N/A",
+    "CustomerReceipt": "N/A",
+    "Endpoint": "Prefill only"
+  },
+  {
+    "PageID": "P02",
+    "Page": "Tires Landing",
+    "Route": "tires.html",
+    "FormID": "availability-form",
+    "Purpose": "",
+    "CustomerEmail": "Required",
+    "BusinessDestination": "tirewebdev4life@gmail.com",
+    "CustomerReceipt": "Required",
+    "Endpoint": "https://script.google.com/macros/s/AKfycbxPfe_Wyb3SVJAYMHFgTAQ5qCO4qsDLU1q9lCylr6nAeWE4nJt1ZEV1SRgja3gcnDHJAg/exec"
+  },
+  {
+    "PageID": "P03",
+    "Page": "Used Tires",
+    "Route": "used-tires.html",
+    "FormID": "used-tire-form",
+    "Purpose": "",
+    "CustomerEmail": "Required",
+    "BusinessDestination": "tirewebdev4life@gmail.com",
+    "CustomerReceipt": "Required",
+    "Endpoint": "https://script.google.com/macros/s/AKfycbxPfe_Wyb3SVJAYMHFgTAQ5qCO4qsDLU1q9lCylr6nAeWE4nJt1ZEV1SRgja3gcnDHJAg/exec"
+  },
+  {
+    "PageID": "P04",
+    "Page": "New Tires",
+    "Route": "new-tires.html",
+    "FormID": "new-tire-form",
+    "Purpose": "",
+    "CustomerEmail": "Required",
+    "BusinessDestination": "tirewebdev4life@gmail.com",
+    "CustomerReceipt": "Required",
+    "Endpoint": "https://script.google.com/macros/s/AKfycbxPfe_Wyb3SVJAYMHFgTAQ5qCO4qsDLU1q9lCylr6nAeWE4nJt1ZEV1SRgja3gcnDHJAg/exec"
+  },
+  {
+    "PageID": "P05",
+    "Page": "Semi & Commercial",
+    "Route": "commercial-tires.html",
+    "FormID": "commercial-form",
+    "Purpose": "",
+    "CustomerEmail": "Required",
+    "BusinessDestination": "tirewebdev4life@gmail.com",
+    "CustomerReceipt": "Required",
+    "Endpoint": "https://script.google.com/macros/s/AKfycbxPfe_Wyb3SVJAYMHFgTAQ5qCO4qsDLU1q9lCylr6nAeWE4nJt1ZEV1SRgja3gcnDHJAg/exec"
+  },
+  {
+    "PageID": "P07",
+    "Page": "Tire Repair",
+    "Route": "tire-repair.html",
+    "FormID": "repair-form",
+    "Purpose": "",
+    "CustomerEmail": "Required",
+    "BusinessDestination": "tirewebdev4life@gmail.com",
+    "CustomerReceipt": "Required",
+    "Endpoint": "https://script.google.com/macros/s/AKfycbxPfe_Wyb3SVJAYMHFgTAQ5qCO4qsDLU1q9lCylr6nAeWE4nJt1ZEV1SRgja3gcnDHJAg/exec"
+  },
+  {
+    "PageID": "P08",
+    "Page": "Auto & Truck Repair",
+    "Route": "auto-repair.html",
+    "FormID": "auto-service-form",
+    "Purpose": "",
+    "CustomerEmail": "Required",
+    "BusinessDestination": "tirewebdev4life@gmail.com",
+    "CustomerReceipt": "Required",
+    "Endpoint": "https://script.google.com/macros/s/AKfycbxPfe_Wyb3SVJAYMHFgTAQ5qCO4qsDLU1q9lCylr6nAeWE4nJt1ZEV1SRgja3gcnDHJAg/exec"
+  },
+  {
+    "PageID": "P09",
+    "Page": "Rim Repair",
+    "Route": "rim-repair.html",
+    "FormID": "rim-form",
+    "Purpose": "",
+    "CustomerEmail": "Required",
+    "BusinessDestination": "tirewebdev4life@gmail.com",
+    "CustomerReceipt": "Required",
+    "Endpoint": "https://script.google.com/macros/s/AKfycbxPfe_Wyb3SVJAYMHFgTAQ5qCO4qsDLU1q9lCylr6nAeWE4nJt1ZEV1SRgja3gcnDHJAg/exec"
+  },
+  {
+    "PageID": "P12",
+    "Page": "Locations Hub",
+    "Route": "locations.html",
+    "FormID": "service-form",
+    "Purpose": "",
+    "CustomerEmail": "Required",
+    "BusinessDestination": "tirewebdev4life@gmail.com",
+    "CustomerReceipt": "Required",
+    "Endpoint": "https://script.google.com/macros/s/AKfycbxPfe_Wyb3SVJAYMHFgTAQ5qCO4qsDLU1q9lCylr6nAeWE4nJt1ZEV1SRgja3gcnDHJAg/exec"
+  },
+  {
+    "PageID": "P12",
+    "Page": "Locations Hub",
+    "Route": "locations.html",
+    "FormID": "tire-form",
+    "Purpose": "",
+    "CustomerEmail": "Required",
+    "BusinessDestination": "tirewebdev4life@gmail.com",
+    "CustomerReceipt": "Required",
+    "Endpoint": "https://script.google.com/macros/s/AKfycbxPfe_Wyb3SVJAYMHFgTAQ5qCO4qsDLU1q9lCylr6nAeWE4nJt1ZEV1SRgja3gcnDHJAg/exec"
+  },
+  {
+    "PageID": "P16",
+    "Page": "Contact",
+    "Route": "contact.html",
+    "FormID": "tire-form",
+    "Purpose": "",
+    "CustomerEmail": "Required",
+    "BusinessDestination": "tirewebdev4life@gmail.com",
+    "CustomerReceipt": "Required",
+    "Endpoint": "https://script.google.com/macros/s/AKfycbxPfe_Wyb3SVJAYMHFgTAQ5qCO4qsDLU1q9lCylr6nAeWE4nJt1ZEV1SRgja3gcnDHJAg/exec"
+  },
+  {
+    "PageID": "P16",
+    "Page": "Contact",
+    "Route": "contact.html",
+    "FormID": "service-form",
+    "Purpose": "",
+    "CustomerEmail": "Required",
+    "BusinessDestination": "tirewebdev4life@gmail.com",
+    "CustomerReceipt": "Required",
+    "Endpoint": "https://script.google.com/macros/s/AKfycbxPfe_Wyb3SVJAYMHFgTAQ5qCO4qsDLU1q9lCylr6nAeWE4nJt1ZEV1SRgja3gcnDHJAg/exec"
+  },
+  {
+    "PageID": "P16",
+    "Page": "Contact",
+    "Route": "contact.html",
+    "FormID": "auto-glass-form",
+    "Purpose": "auto-glass-request",
+    "CustomerEmail": "Required",
+    "BusinessDestination": "tirewebdev4life@gmail.com",
+    "CustomerReceipt": "Required",
+    "Endpoint": "https://script.google.com/macros/s/AKfycbxPfe_Wyb3SVJAYMHFgTAQ5qCO4qsDLU1q9lCylr6nAeWE4nJt1ZEV1SRgja3gcnDHJAg/exec"
+  },
+  {
+    "PageID": "P17",
+    "Page": "Freedom Drive",
+    "Route": "freedom-drive.html",
+    "FormID": "service-form",
+    "Purpose": "",
+    "CustomerEmail": "Required",
+    "BusinessDestination": "tirewebdev4life@gmail.com",
+    "CustomerReceipt": "Required",
+    "Endpoint": "https://script.google.com/macros/s/AKfycbxPfe_Wyb3SVJAYMHFgTAQ5qCO4qsDLU1q9lCylr6nAeWE4nJt1ZEV1SRgja3gcnDHJAg/exec"
+  },
+  {
+    "PageID": "P17",
+    "Page": "Freedom Drive",
+    "Route": "freedom-drive.html",
+    "FormID": "tire-form",
+    "Purpose": "",
+    "CustomerEmail": "Required",
+    "BusinessDestination": "tirewebdev4life@gmail.com",
+    "CustomerReceipt": "Required",
+    "Endpoint": "https://script.google.com/macros/s/AKfycbxPfe_Wyb3SVJAYMHFgTAQ5qCO4qsDLU1q9lCylr6nAeWE4nJt1ZEV1SRgja3gcnDHJAg/exec"
+  },
+  {
+    "PageID": "P18",
+    "Page": "North Tryon",
+    "Route": "north-tryon.html",
+    "FormID": "service-form",
+    "Purpose": "",
+    "CustomerEmail": "Required",
+    "BusinessDestination": "tirewebdev4life@gmail.com",
+    "CustomerReceipt": "Required",
+    "Endpoint": "https://script.google.com/macros/s/AKfycbxPfe_Wyb3SVJAYMHFgTAQ5qCO4qsDLU1q9lCylr6nAeWE4nJt1ZEV1SRgja3gcnDHJAg/exec"
+  },
+  {
+    "PageID": "P18",
+    "Page": "North Tryon",
+    "Route": "north-tryon.html",
+    "FormID": "tire-form",
+    "Purpose": "",
+    "CustomerEmail": "Required",
+    "BusinessDestination": "tirewebdev4life@gmail.com",
+    "CustomerReceipt": "Required",
+    "Endpoint": "https://script.google.com/macros/s/AKfycbxPfe_Wyb3SVJAYMHFgTAQ5qCO4qsDLU1q9lCylr6nAeWE4nJt1ZEV1SRgja3gcnDHJAg/exec"
+  },
+  {
+    "PageID": "P19",
+    "Page": "Concord",
+    "Route": "concord.html",
+    "FormID": "service-form",
+    "Purpose": "",
+    "CustomerEmail": "Required",
+    "BusinessDestination": "tirewebdev4life@gmail.com",
+    "CustomerReceipt": "Required",
+    "Endpoint": "https://script.google.com/macros/s/AKfycbxPfe_Wyb3SVJAYMHFgTAQ5qCO4qsDLU1q9lCylr6nAeWE4nJt1ZEV1SRgja3gcnDHJAg/exec"
+  },
+  {
+    "PageID": "P19",
+    "Page": "Concord",
+    "Route": "concord.html",
+    "FormID": "tire-form",
+    "Purpose": "",
+    "CustomerEmail": "Required",
+    "BusinessDestination": "tirewebdev4life@gmail.com",
+    "CustomerReceipt": "Required",
+    "Endpoint": "https://script.google.com/macros/s/AKfycbxPfe_Wyb3SVJAYMHFgTAQ5qCO4qsDLU1q9lCylr6nAeWE4nJt1ZEV1SRgja3gcnDHJAg/exec"
+  }
+]

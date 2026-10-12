@@ -1,0 +1,768 @@
+
+:root{
+  --green:#72c82c;
+  --green-dark:#2b7618;
+  --teal:#0e7373;
+  --teal-deep:#062c2d;
+  --teal-soft:#dceeed;
+  --ink:#0a0d0b;
+  --paper:#f6f7f3;
+  --muted:#69716c;
+  --red:#d92d27;
+  --blue:#275cb8;
+  --orange:#e67c1c;
+  --purple:#7643a6;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:#111;font-family:Arial,Helvetica,sans-serif;line-height:1.45}
+a{text-decoration:none;color:inherit}
+img{max-width:100%}
+.container{width:min(1180px,calc(100% - 42px));margin:auto}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+.skip-link{position:absolute;left:-999px}.skip-link:focus{left:12px;top:12px;background:#fff;padding:10px;z-index:999}
+h1,h2,h3,p{margin-top:0}h1,h2,h3{font-family:Impact,"Arial Narrow",Arial,sans-serif;line-height:.92;text-transform:uppercase;letter-spacing:-.025em}
+.eyebrow,.micro-label{font-size:9px;font-weight:900;letter-spacing:.15em;text-transform:uppercase}.eyebrow{color:var(--green)}.teal{color:var(--teal)}.light{color:#cce7df}
+.btn{display:inline-flex;min-height:45px;align-items:center;justify-content:center;padding:0 18px;border:1px solid transparent;font-size:9px;font-weight:900;letter-spacing:.09em;transition:.2s}
+.btn-green{background:var(--green);color:#071007}.btn-green:hover{background:#86d33f}
+.btn-outline{border-color:#8a9890;color:#fff;background:transparent}.btn-dark{background:#08100a;color:#fff}.text-link{font-size:9px;font-weight:900;letter-spacing:.09em;color:var(--teal)}
+.utility-bar{background:var(--green);font-size:9px;font-weight:900}.utility-inner{min-height:30px;display:flex;align-items:center;gap:18px}.utility-inner a{margin-left:auto}
+.site-header{position:sticky;top:0;z-index:50;background:#060906;color:#fff;border-bottom:1px solid #1e251f}.nav-wrap{height:70px;display:flex;align-items:center;gap:28px}
+.brand{display:flex;align-items:baseline;font-weight:900}.brand span{font-size:12px}.brand b{font-family:Impact,"Arial Narrow";font-size:34px;color:var(--green);margin:0 2px}
+.main-nav{margin-left:auto;display:flex;gap:18px;font-size:9px;font-weight:900;letter-spacing:.08em}.main-nav a{color:#fff}.main-nav .active{color:var(--green)}
+.menu-toggle{display:none;background:none;border:0}.menu-toggle i{display:block;width:24px;height:2px;background:#fff;margin:5px}
+.section{padding:88px 0}
+
+.location-hero{position:relative;min-height:720px;background:#061415;color:#fff;overflow:hidden}
+.hero-photo-placeholder,.geo-grid,.hero-asphalt,.hero-splatter,.hero-shade{position:absolute;inset:0}
+.hero-photo-placeholder{right:0;left:45%;background:linear-gradient(135deg,#163939,#0a1413);display:grid;place-items:center;overflow:hidden}
+.hero-photo-placeholder:before{content:"";position:absolute;inset:0;background:linear-gradient(25deg,transparent 45%,rgba(114,200,44,.18) 46%,transparent 48%),linear-gradient(120deg,transparent 62%,rgba(255,255,255,.06) 63%,transparent 65%)}
+.photo-slot-label{position:relative;border:1px dashed rgba(255,255,255,.35);padding:22px;text-align:center;background:rgba(0,0,0,.28)}.photo-slot-label span,.photo-slot-label small{display:block}.photo-slot-label span{font-size:10px;font-weight:900;letter-spacing:.1em}.photo-slot-label small{font-size:9px;color:#b9c8c2;margin-top:6px}
+.geo-grid{background-image:linear-gradient(rgba(49,143,143,.12) 1px,transparent 1px),linear-gradient(90deg,rgba(49,143,143,.12) 1px,transparent 1px),radial-gradient(circle at 75% 32%,rgba(114,200,44,.18),transparent 16%);background-size:46px 46px,46px 46px,100% 100%;opacity:.55}
+.geo-grid:after{content:"";position:absolute;left:62%;top:28%;width:92px;height:92px;border:2px solid rgba(114,200,44,.25);border-radius:50%;box-shadow:0 0 0 24px rgba(114,200,44,.04),0 0 0 48px rgba(114,200,44,.025)}
+.geo-grid.subtle{opacity:.22}
+.hero-asphalt{background:url('assets/textures/asphalt.webp') center/cover;opacity:.18}
+.hero-splatter{background:url('assets/textures/green-splatter.webp') left center/cover;opacity:.15}
+.hero-shade{background:linear-gradient(90deg,#041010 0%,rgba(4,16,16,.95) 45%,rgba(4,16,16,.55) 70%,rgba(4,16,16,.18))}
+.hero-grid{position:relative;min-height:720px;display:grid;grid-template-columns:1.1fr .55fr;gap:70px;align-items:center}
+.hero-copy{padding:80px 0}.location-hero h1{font-size:clamp(66px,7vw,108px);max-width:820px}.location-hero h1 span{color:var(--green)}
+.hero-lede{max-width:650px;font-size:17px;color:#c6d2cd}.hero-actions{display:flex;gap:10px;margin:28px 0}.hero-micro{display:flex;gap:20px;flex-wrap:wrap;font-size:9px;font-weight:900;color:#afbeb7}
+.location-card{background:rgba(5,31,31,.90);border:1px solid rgba(114,200,44,.25);padding:28px;box-shadow:0 28px 80px rgba(0,0,0,.30),inset 0 -4px rgba(114,200,44,.16);backdrop-filter:blur(3px)}
+.pin{width:62px;height:62px;border-radius:50%;display:grid;place-items:center;background:#fff;margin-bottom:30px}.pin img{width:42px}.location-card h2{font-size:52px;margin:10px 0}.location-card address{font-style:normal;color:#bdcbc5}.location-phone{display:block;color:var(--green);font-size:19px;font-weight:900;margin:20px 0}.location-actions{display:flex;gap:14px;flex-wrap:wrap}.location-actions a{font-size:8px;font-weight:900;letter-spacing:.08em;color:#d9e6e0}
+
+.quick-route{background:#071312;color:#fff}.quick-grid{display:grid;grid-template-columns:repeat(4,1fr)}.quick-grid a{padding:22px;border-right:1px solid #263735}.quick-grid span,.quick-grid strong,.quick-grid small{display:block}.quick-grid span{color:var(--green);font-size:8px;font-weight:900}.quick-grid strong{font-size:11px;margin:6px 0}.quick-grid small{font-size:9px;color:#92a29b}
+
+.facts-section{background:#f8faf7}.facts-grid{display:grid;grid-template-columns:.78fr 1.22fr;gap:70px;align-items:center}.facts-grid h2{font-size:clamp(50px,5vw,76px)}.facts-grid>div:first-child>p:not(.eyebrow){color:var(--muted)}
+.fact-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.fact-cards article{background:#fff;border:1px solid #dce3dd;border-top:4px solid var(--teal);padding:24px;min-height:220px}.fact-cards span{font-size:8px;color:#718177;font-weight:900}.fact-cards strong{display:block;font-family:Impact,"Arial Narrow";font-size:34px;margin:30px 0 10px}.fact-cards p{font-size:11px;color:var(--muted)}
+
+.feature-band{position:relative;background:#062a2b;color:#fff;padding:84px 0;overflow:hidden}.feature-asphalt,.feature-splatter{position:absolute;inset:0}.feature-asphalt{background:url('assets/textures/asphalt.webp') center/cover;opacity:.24}.feature-splatter{background:url('assets/textures/green-splatter.webp') left center/cover;opacity:.10}.feature-grid{position:relative;display:grid;grid-template-columns:.75fr 1.25fr;gap:70px}.feature-grid h2{font-size:clamp(50px,5vw,76px)}.highlight-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.highlight-grid article{background:rgba(4,24,24,.78);border:1px solid #31504b;padding:22px}.highlight-grid span{display:block;color:var(--green);font-family:Impact,"Arial Narrow";font-size:30px}.highlight-grid strong{display:block;font-size:10px;margin:12px 0}.highlight-grid p{font-size:10px;color:#aebdb6}
+
+.services-section{background:#f6f7f3}.section-head{display:grid;grid-template-columns:1fr .75fr;gap:60px;align-items:end;margin-bottom:40px}.section-head h2{font-size:clamp(50px,5vw,76px)}.section-head>p{color:var(--muted)}
+.service-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.service-card{position:relative;background:#fff;border:1px solid #dfe3de;padding:22px;min-height:295px;overflow:hidden;box-shadow:0 10px 26px rgba(0,0,0,.04)}.service-card:before{content:"";position:absolute;inset:0;opacity:.10;background-size:cover;background-position:center}.service-card>*{position:relative}.service-card img{width:46px;height:46px;padding:7px;background:#fff;border-radius:50%;box-shadow:0 5px 15px rgba(0,0,0,.1)}.service-card span{position:absolute;right:18px;top:18px;font-size:8px;font-weight:900;color:#96a096}.service-card h3{font-size:30px;margin:34px 0 10px}.service-card p{font-size:11px;color:#646c66}.service-card strong{font-size:8px;letter-spacing:.08em}.used{border-bottom:5px solid #111}.used:before{background-image:url('assets/textures/tire-tread.webp')}.new{border-bottom:5px solid var(--blue)}.new:before{background:linear-gradient(135deg,transparent,#dce8ff)}.semi{border-bottom:5px solid var(--teal)}.semi:before{background-image:url('assets/textures/brushed-steel.webp')}.tire-repair{border-bottom:5px solid var(--red)}.tire-repair:before{background:linear-gradient(135deg,transparent,#ffe5e3)}.auto{border-bottom:5px solid var(--orange)}.auto:before{background:linear-gradient(135deg,transparent,#fff0df)}.rim{border-bottom:5px solid var(--purple)}.rim:before{background-image:url('assets/textures/rim-chrome.webp')}.roadside{border-bottom:5px solid var(--green)}.roadside:before{background-image:url('assets/textures/road-stripe.webp')}.towing{border-bottom:5px solid var(--red)}.towing:before{background-image:url('assets/textures/asphalt.webp')}
+
+.gallery-section{position:relative;background:#081313;color:#fff;padding:90px 0;overflow:hidden}.gallery-asphalt{position:absolute;inset:0;background:url('assets/textures/asphalt.webp') center/cover;opacity:.22}.gallery-section .container{position:relative}.gallery-head{display:grid;grid-template-columns:1fr .7fr;gap:60px;margin-bottom:35px}.gallery-head h2{font-size:clamp(50px,5vw,76px)}.gallery-head>p{color:#b7c3bd}
+.gallery-grid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:190px;gap:10px}.photo-slot{position:relative;border:1px dashed #49625a;background:linear-gradient(135deg,#102222,#0b1110);display:flex;flex-direction:column;justify-content:flex-end;padding:16px;overflow:hidden}.photo-slot:before{content:"";position:absolute;inset:0;background:linear-gradient(35deg,transparent 60%,rgba(114,200,44,.11) 61%,transparent 64%)}.photo-slot span,.photo-slot small{position:relative}.photo-slot span{font-size:8px;font-weight:900;letter-spacing:.08em}.photo-slot small{font-size:8px;color:#8fa098;margin-top:4px}.photo-slot.large{grid-column:span 2;grid-row:span 2}.photo-slot.wide{grid-column:span 2}
+
+.zones-section{background:#fff}.zones-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:70px;align-items:center}.zones-grid h2{font-size:clamp(50px,5vw,76px)}.zones-grid>div:first-child>p:not(.eyebrow){color:var(--muted)}.zone-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.zone-cards article{background:#f5f8f5;border:1px solid #dce4dd;padding:22px;min-height:220px}.zone-cards span{font-size:8px;font-weight:900;color:var(--teal)}.zone-cards strong{display:block;font-size:11px;margin:40px 0 8px}.zone-cards p{font-size:10px;color:var(--muted)}
+
+.form-section{position:relative;background:#062f2f;color:#fff;padding:90px 0;overflow:hidden}.form-texture{position:absolute;inset:0;background:url('assets/textures/green-splatter.webp') left center/cover;opacity:.08}.form-grid{position:relative;display:grid;grid-template-columns:.75fr 1.25fr;gap:70px;align-items:start}.form-grid.reverse{grid-template-columns:.75fr 1.25fr}.form-grid h2{font-size:clamp(50px,5vw,76px)}.form-grid>div>p:not(.eyebrow){color:#bed0c8}.form-grid ul{padding-left:18px;color:#c8d8d1;font-size:11px}
+.request-form{background:#fff;color:#111;padding:26px;border-top:5px solid var(--green);box-shadow:0 20px 60px rgba(0,0,0,.18)}.request-form label{display:block;font-size:8px;font-weight:900;letter-spacing:.08em;margin-bottom:12px}.request-form input,.request-form select,.request-form textarea{display:block;width:100%;margin-top:5px;border:1px solid #dce3dd;background:#f5f7f4;padding:11px;font:inherit}.two,.three{display:grid;gap:10px}.two{grid-template-columns:1fr 1fr}.three{grid-template-columns:repeat(3,1fr)}.mobile-fields{padding:13px;background:#edf5eb;border-left:4px solid var(--green);margin-bottom:12px}.form-success{font-size:10px;margin:12px 0 0;color:#2e6f1a}.light-form{box-shadow:0 15px 45px rgba(0,0,0,.08)}
+.tire-form-section{background:#f7f9f6}.tire-form-section .form-grid>div>p:not(.eyebrow){color:var(--muted)}.size-demo{display:flex;align-items:baseline;gap:7px;margin-top:28px}.size-demo b{font-family:Impact,"Arial Narrow";font-size:50px}.size-demo i{font-style:normal;color:var(--green);font-size:21px}
+
+.map-section{position:relative;background:#073636;color:#fff;padding:85px 0;overflow:hidden}.map-grid{position:relative;display:grid;grid-template-columns:.75fr 1.25fr;gap:70px;align-items:center}.map-grid h2{font-size:clamp(50px,5vw,76px)}.map-grid address{font-style:normal;color:#c4d6ce;margin:18px 0 26px}.map-placeholder{min-height:330px;border:1px solid #41635d;background:rgba(5,31,31,.72);display:grid;place-items:center;text-align:center;padding:25px}.map-placeholder img{width:65px;filter:invert(1)}.map-placeholder strong,.map-placeholder small{display:block}.map-placeholder strong{font-family:Impact,"Arial Narrow";font-size:28px}.map-placeholder small{font-size:9px;color:#a9bbb3}
+
+.faq-section{background:#fff}.faq-grid{display:grid;grid-template-columns:.7fr 1.3fr;gap:80px}.faq-grid h2{font-size:56px}.faq-grid>div:first-child>p:not(.eyebrow){color:var(--muted)}.accordion details{border-top:1px solid #dde4dd}.accordion details:last-child{border-bottom:1px solid #dde4dd}.accordion summary{position:relative;padding:20px 40px 20px 0;cursor:pointer;list-style:none;font-weight:800}.accordion summary:after{content:"+";position:absolute;right:3px;font-size:22px;color:var(--teal)}.accordion details[open] summary:after{content:"−"}.accordion details p{color:var(--muted);padding:0 42px 18px 0}
+
+.final-cta{position:relative;background:#267e16;color:#fff;padding:88px 0;overflow:hidden}.cta-gradient,.cta-splatter{position:absolute;inset:0}.cta-gradient{background:url('assets/textures/green-gradient.webp') center/cover;opacity:.40}.cta-splatter{background:url('assets/textures/green-splatter.webp') left center/cover;opacity:.13}.final-grid{position:relative;display:grid;grid-template-columns:1fr .55fr;gap:70px;align-items:center}.final-grid h2{font-size:clamp(52px,5vw,78px)}.final-grid p:not(.eyebrow){color:#e0efda}.final-actions{display:flex;flex-direction:column;gap:9px}
+
+.site-footer{background:#060906;color:#fff;padding:54px 0 20px}.footer-grid{display:grid;grid-template-columns:1.4fr repeat(3,1fr);gap:40px}.footer-brand p{color:#94a095;font-size:11px;max-width:280px}.footer-brand>a:not(.brand){color:var(--green);font-weight:900}.site-footer h3{font-size:10px;color:var(--green)}.site-footer div>a:not(.brand){display:block;color:#b8c1b8;font-size:10px;margin:9px 0}.footer-bottom{border-top:1px solid #1d241d;margin-top:38px;padding-top:18px;display:flex;justify-content:space-between;font-size:8px;color:#667067}
+.mobile-dock{display:none}
+
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid var(--green);outline-offset:3px}
+@media(max-width:1080px){
+  .main-nav{gap:11px}.nav-cta{display:none}.service-grid{grid-template-columns:repeat(2,1fr)}.highlight-grid{grid-template-columns:1fr}.fact-cards{grid-template-columns:1fr 1fr}.zone-cards{grid-template-columns:1fr}.footer-grid{grid-template-columns:1.4fr 1fr 1fr}
+}
+@media(max-width:760px){
+  body{padding-bottom:64px}.container{width:min(100% - 28px,1180px)}.utility-inner span{display:none}.nav-wrap{height:62px}.menu-toggle{display:block;margin-left:auto}.main-nav{display:none;position:absolute;left:0;right:0;top:62px;background:#080b08;padding:18px;flex-direction:column}.main-nav.open{display:flex}.main-nav a{padding:10px;border-bottom:1px solid #202720}
+  .location-hero{min-height:auto}.hero-photo-placeholder{left:0;opacity:.32}.hero-grid,.facts-grid,.feature-grid,.section-head,.zones-grid,.form-grid,.form-grid.reverse,.map-grid,.faq-grid,.final-grid{grid-template-columns:1fr;gap:32px}.hero-grid{padding:58px 0}.hero-copy{padding:0}.location-hero h1{font-size:56px}.hero-actions{flex-wrap:wrap}.location-card{margin-bottom:20px}.quick-grid{grid-template-columns:1fr 1fr}.fact-cards{grid-template-columns:1fr}.service-grid{grid-template-columns:1fr 1fr}.gallery-head{grid-template-columns:1fr}.gallery-grid{grid-template-columns:1fr 1fr;grid-auto-rows:170px}.photo-slot.large,.photo-slot.wide{grid-column:span 2}.two,.three{grid-template-columns:1fr}.feature-band,.gallery-section,.form-section,.map-section,.final-cta{padding:68px 0}.footer-grid{grid-template-columns:1fr 1fr}.footer-brand{grid-column:1/-1}
+  .mobile-dock{display:grid;grid-template-columns:repeat(4,1fr);position:fixed;left:0;right:0;bottom:0;z-index:90;background:#060906;border-top:1px solid #263026}.mobile-dock a{min-height:62px;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;border-right:1px solid #202820}.mobile-dock span{font-size:17px}.mobile-dock strong{font-size:7px}.mobile-dock a:first-child{color:var(--green)}
+}
+@media(max-width:430px){
+  .location-hero h1{font-size:47px}.hero-actions{flex-direction:column}.btn{width:100%}.quick-grid,.service-grid,.gallery-grid{grid-template-columns:1fr}.photo-slot.large,.photo-slot.wide{grid-column:auto}.gallery-grid{grid-auto-rows:180px}.highlight-grid{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr}.footer-bottom{flex-direction:column;gap:8px}
+}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+
+
+/* =========================================
+   P17 FREEDOM DRIVE — REFINEMENT / FREEZE
+   ========================================= */
+
+/* Freedom identity: dark teal local / strong green energy */
+.hero-asphalt{opacity:.13}
+.hero-splatter{opacity:.10}
+.hero-shade{background:linear-gradient(90deg,#031010 0%,rgba(3,16,16,.96) 43%,rgba(3,16,16,.64) 66%,rgba(3,16,16,.22))}
+.location-hero:after{
+  content:"";position:absolute;left:0;right:0;bottom:0;height:150px;
+  background:linear-gradient(180deg,transparent,rgba(2,11,11,.26));pointer-events:none
+}
+.hero-grid{z-index:2}
+.hero-status{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:7px 10px;margin-bottom:15px;
+  background:rgba(114,200,44,.10);border:1px solid rgba(114,200,44,.28);
+  font-size:8px;font-weight:900;letter-spacing:.10em
+}
+.status-dot{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 0 4px rgba(114,200,44,.09)}
+
+.location-card{border-top:4px solid var(--green)}
+.location-card address{font-size:12px;line-height:1.6}
+.location-actions a{transition:color .18s ease}
+.location-actions a:hover{color:var(--green)}
+
+.quick-grid a{transition:background .18s ease}
+.quick-grid a:hover{background:#0b1b19}
+.quick-grid a:nth-child(3),.quick-grid a:nth-child(4){box-shadow:inset 0 -3px rgba(114,200,44,.16)}
+
+.fact-cards article{
+  box-shadow:0 10px 28px rgba(4,43,43,.04);
+  transition:transform .18s ease,border-color .18s ease
+}
+.fact-cards article:hover{transform:translateY(-3px);border-top-color:var(--green)}
+
+.feature-asphalt{opacity:.17}
+.feature-splatter{opacity:.075}
+.highlight-grid article{
+  border-top:3px solid rgba(114,200,44,.38);
+  box-shadow:inset 0 -3px rgba(114,200,44,.10)
+}
+
+.service-card{
+  transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease
+}
+.service-card:hover{
+  transform:translateY(-3px);
+  box-shadow:0 15px 34px rgba(0,0,0,.07)
+}
+.service-card img{transition:transform .18s ease}
+.service-card:hover img{transform:scale(1.04)}
+
+.gallery-asphalt{opacity:.16}
+.gallery-section:after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(90deg,rgba(2,19,19,.20),transparent 55%)
+}
+.gallery-section .container{z-index:2}
+.photo-slot{
+  border-style:solid;border-color:#3d5550;
+  transition:transform .18s ease,border-color .18s ease,background .18s ease
+}
+.photo-slot:hover{transform:translateY(-2px);border-color:#6b8b81;background:linear-gradient(135deg,#132928,#0d1514)}
+.photo-slot[data-photo-type="night-24-7"]{border-bottom:4px solid var(--green)}
+.photo-slot[data-photo-type="storefront"]{border-top:4px solid var(--teal)}
+
+.zone-cards article{
+  border-top:3px solid transparent;
+  transition:border-color .18s ease,transform .18s ease
+}
+.zone-cards article:hover{border-top-color:var(--teal);transform:translateY(-2px)}
+
+.route-summary{
+  display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:22px
+}
+.route-summary>div{
+  background:rgba(3,20,20,.48);border:1px solid #32514c;padding:14px
+}
+.route-summary span,.route-summary strong,.route-summary small{display:block}
+.route-summary span{font-size:7px;font-weight:900;color:var(--green);letter-spacing:.10em}
+.route-summary strong{font-size:10px;margin:5px 0}
+.route-summary small{font-size:8px;color:#adbbb5}
+
+.request-form{border-top-width:4px}
+.request-form input,.request-form select,.request-form textarea{transition:border-color .15s ease,box-shadow .15s ease}
+.request-form input:focus,.request-form select:focus,.request-form textarea:focus{
+  border-color:#9ec88a;box-shadow:0 0 0 3px rgba(114,200,44,.08);outline:0
+}
+.urgent-call{
+  display:block;margin-top:12px;font-size:8px;font-weight:900;
+  letter-spacing:.08em;color:#2b7618
+}
+.mobile-fields:not([hidden]){animation:revealFields .18s ease-out}
+@keyframes revealFields{from{opacity:0;transform:translateY(-5px)}to{opacity:1;transform:translateY(0)}}
+
+.map-section .geo-grid{opacity:.35}
+.map-placeholder{box-shadow:inset 0 -4px rgba(114,200,44,.14)}
+
+.accordion details[open]{background:rgba(14,115,115,.025)}
+.accordion summary:hover{color:#164a45}
+
+.cta-gradient{opacity:.32}
+.cta-splatter{opacity:.09}
+.final-cta:after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(90deg,rgba(7,42,8,.25),transparent 58%);
+  pointer-events:none
+}
+.final-grid{z-index:2}
+
+@media(max-width:760px){
+  .hero-asphalt{opacity:.07}.hero-splatter{opacity:.055}
+  .hero-photo-placeholder{opacity:.24}
+  .route-summary{grid-template-columns:1fr}
+  .gallery-asphalt{opacity:.10}
+}
+@media(max-width:430px){
+  .hero-status{margin-bottom:12px}
+  .location-card{padding:22px}
+}
+
+
+/* =========================================
+   P18 NORTH TRYON — FULL LOCATION BUILD v1
+   Cleaner Teal / Blue-Teal / Directional
+   ========================================= */
+body[data-location="north-tryon"]{
+  --teal:#0a7f8f;
+  --teal-deep:#052d35;
+  --branch-blue:#277fa1;
+  --branch-blue-light:#69b7cb;
+  --branch-ink:#071318;
+}
+body[data-location="north-tryon"] .utility-bar{
+  background:linear-gradient(90deg,#0a7f8f,#277fa1);color:#fff
+}
+body[data-location="north-tryon"] .utility-bar a{color:#fff}
+body[data-location="north-tryon"] .location-hero{background:#06151a}
+body[data-location="north-tryon"] .hero-photo-placeholder{
+  background:linear-gradient(135deg,#16383e,#07161b)
+}
+body[data-location="north-tryon"] .hero-photo-placeholder:before{
+  background:
+    linear-gradient(26deg,transparent 46%,rgba(39,127,161,.20) 47%,transparent 49%),
+    linear-gradient(118deg,transparent 61%,rgba(255,255,255,.065) 62%,transparent 64%)
+}
+body[data-location="north-tryon"] .geo-grid{
+  background-image:
+    linear-gradient(rgba(68,164,181,.14) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(68,164,181,.14) 1px,transparent 1px),
+    radial-gradient(circle at 76% 32%,rgba(39,127,161,.21),transparent 16%);
+}
+body[data-location="north-tryon"] .geo-grid:after{
+  border-color:rgba(91,180,199,.30);
+  box-shadow:0 0 0 24px rgba(39,127,161,.045),0 0 0 48px rgba(39,127,161,.025)
+}
+body[data-location="north-tryon"] .hero-asphalt{
+  background:url('assets/textures/brushed-steel.webp') center/cover;opacity:.075
+}
+body[data-location="north-tryon"] .hero-splatter{
+  background:url('assets/textures/road-stripe.webp') right center/cover;opacity:.10
+}
+body[data-location="north-tryon"] .hero-shade{
+  background:linear-gradient(90deg,#041217 0%,rgba(4,18,23,.96) 44%,rgba(4,18,23,.64) 66%,rgba(4,18,23,.20))
+}
+body[data-location="north-tryon"] .location-hero h1 span{color:#69b7cb}
+body[data-location="north-tryon"] .hero-status{
+  background:rgba(39,127,161,.12);border-color:rgba(105,183,203,.32)
+}
+body[data-location="north-tryon"] .status-dot{background:#69b7cb;box-shadow:0 0 0 4px rgba(105,183,203,.10)}
+body[data-location="north-tryon"] .location-card{
+  background:rgba(5,37,43,.90);border-color:rgba(105,183,203,.28);border-top-color:#69b7cb;
+  box-shadow:0 28px 80px rgba(0,0,0,.28),inset 0 -4px rgba(39,127,161,.15)
+}
+body[data-location="north-tryon"] .location-phone{color:#69b7cb}
+body[data-location="north-tryon"] .quick-route{background:#07171b}
+body[data-location="north-tryon"] .quick-grid span{color:#69b7cb}
+body[data-location="north-tryon"] .quick-grid a:nth-child(3),
+body[data-location="north-tryon"] .quick-grid a:nth-child(4){box-shadow:inset 0 -3px rgba(39,127,161,.18)}
+body[data-location="north-tryon"] .fact-cards article{border-top-color:#0a7f8f}
+body[data-location="north-tryon"] .fact-cards article:hover{border-top-color:#277fa1}
+
+/* North Tryon highlight band uses cleaner steel / directional texture instead of splatter. */
+body[data-location="north-tryon"] .feature-band{background:#062d34}
+body[data-location="north-tryon"] .feature-asphalt{
+  background:url('assets/textures/brushed-steel.webp') center/cover;opacity:.11
+}
+body[data-location="north-tryon"] .feature-splatter{
+  background:url('assets/textures/road-stripe.webp') right center/cover;opacity:.09
+}
+body[data-location="north-tryon"] .highlight-grid article{
+  background:rgba(5,32,38,.82);border-color:#31545c;border-top-color:rgba(105,183,203,.50)
+}
+body[data-location="north-tryon"] .highlight-grid span{color:#69b7cb}
+
+/* Property album: cooler, cleaner, directional. */
+body[data-location="north-tryon"] .gallery-section{background:#07171c}
+body[data-location="north-tryon"] .gallery-asphalt{
+  background:url('assets/textures/brushed-steel.webp') center/cover;opacity:.09
+}
+body[data-location="north-tryon"] .gallery-section:before{
+  content:"";position:absolute;inset:0;background:url('assets/textures/road-stripe.webp') right center/cover;opacity:.055
+}
+body[data-location="north-tryon"] .photo-slot{background:linear-gradient(135deg,#10262b,#0a1417);border-color:#39565e}
+body[data-location="north-tryon"] .photo-slot:hover{border-color:#62a7b6;background:linear-gradient(135deg,#133037,#0b171b)}
+body[data-location="north-tryon"] .photo-slot[data-photo-type="storefront"]{border-top-color:#277fa1}
+body[data-location="north-tryon"] .photo-slot[data-photo-type="night-24-7"]{border-bottom-color:#69b7cb}
+
+body[data-location="north-tryon"] .zone-cards span{color:#0a7f8f}
+body[data-location="north-tryon"] .zone-cards article:hover{border-top-color:#277fa1}
+
+body[data-location="north-tryon"] .form-section{background:#06323a}
+body[data-location="north-tryon"] .form-texture{
+  background:url('assets/textures/road-stripe.webp') right center/cover;opacity:.055
+}
+body[data-location="north-tryon"] .route-summary span{color:#69b7cb}
+body[data-location="north-tryon"] .request-form{border-top-color:#277fa1}
+body[data-location="north-tryon"] .request-form input:focus,
+body[data-location="north-tryon"] .request-form select:focus,
+body[data-location="north-tryon"] .request-form textarea:focus{
+  border-color:#69b7cb;box-shadow:0 0 0 3px rgba(39,127,161,.09)
+}
+body[data-location="north-tryon"] .urgent-call{color:#0a7181}
+body[data-location="north-tryon"] .mobile-fields{background:#e7f3f5;border-left-color:#277fa1}
+
+body[data-location="north-tryon"] .map-section{background:#073844}
+body[data-location="north-tryon"] .map-placeholder{border-color:#4b6c74;box-shadow:inset 0 -4px rgba(105,183,203,.17)}
+body[data-location="north-tryon"] .accordion summary:after{color:#277fa1}
+body[data-location="north-tryon"] .accordion summary:hover{color:#176274}
+
+/* North Tryon CTA stays branded T4L but shifts toward blue-teal. */
+body[data-location="north-tryon"] .final-cta{background:#0b7584}
+body[data-location="north-tryon"] .cta-gradient{
+  background:linear-gradient(120deg,#0a7f8f,#277fa1 62%,#164f61);opacity:.86
+}
+body[data-location="north-tryon"] .cta-splatter{
+  background:url('assets/textures/road-stripe.webp') right center/cover;opacity:.08
+}
+body[data-location="north-tryon"] .final-cta:after{
+  background:linear-gradient(90deg,rgba(1,29,36,.26),transparent 60%)
+}
+body[data-location="north-tryon"] .final-grid p:not(.eyebrow){color:#def0f3}
+
+@media(max-width:760px){
+  body[data-location="north-tryon"] .hero-asphalt{opacity:.045}
+  body[data-location="north-tryon"] .hero-splatter{opacity:.055}
+  body[data-location="north-tryon"] .gallery-asphalt{opacity:.055}
+}
+
+
+/* =========================================
+   P18 NORTH TRYON — REFINEMENT / FREEZE
+   ========================================= */
+
+/* Cleaner teal / blue-teal branch identity */
+.hero-teal{opacity:.47}
+.hero-steel{opacity:.075}
+.hero-road{opacity:.08}
+.hero-asphalt{opacity:.055}
+.location-hero:after{
+  content:"";position:absolute;left:0;right:0;bottom:0;height:145px;
+  background:linear-gradient(180deg,transparent,rgba(4,13,20,.22));pointer-events:none
+}
+.hero-grid{z-index:2}
+
+.hero-status{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:7px 10px;margin-bottom:15px;
+  background:rgba(37,130,160,.11);border:1px solid rgba(86,182,207,.28);
+  font-size:8px;font-weight:900;letter-spacing:.10em
+}
+.status-dot{
+  width:7px;height:7px;border-radius:50%;
+  background:#58bdd1;box-shadow:0 0 0 4px rgba(88,189,209,.09)
+}
+
+/* Keep blue-teal as branch-specific action accent while global green stays universal */
+.location-card{
+  border-top:4px solid #58bdd1;
+  box-shadow:0 28px 78px rgba(0,0,0,.27),inset 0 -4px rgba(88,189,209,.14)
+}
+.location-actions a{transition:color .18s ease}
+.location-actions a:hover{color:#8bd9e8}
+
+.quick-grid a{transition:background .18s ease}
+.quick-grid a:hover{background:#0a1820}
+.quick-grid a:nth-child(3),.quick-grid a:nth-child(4){
+  box-shadow:inset 0 -3px rgba(88,189,209,.14)
+}
+
+.fact-cards article{
+  box-shadow:0 10px 27px rgba(12,69,83,.035);
+  transition:transform .18s ease,border-color .18s ease
+}
+.fact-cards article:hover{
+  transform:translateY(-3px);
+  border-top-color:#58bdd1
+}
+
+.feature-steel{opacity:.12}
+.feature-road{opacity:.08}
+.highlight-grid article{
+  border-top:3px solid rgba(88,189,209,.36);
+  box-shadow:inset 0 -3px rgba(88,189,209,.09)
+}
+
+.service-card{
+  transition:transform .18s ease,box-shadow .18s ease
+}
+.service-card:hover{
+  transform:translateY(-3px);
+  box-shadow:0 15px 34px rgba(0,0,0,.07)
+}
+.service-card img{transition:transform .18s ease}
+.service-card:hover img{transform:scale(1.04)}
+
+.gallery-section:after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(90deg,rgba(4,19,28,.17),transparent 58%)
+}
+.gallery-section .container{position:relative;z-index:2}
+.gallery-steel{opacity:.10}
+.gallery-road{opacity:.07}
+.photo-slot{
+  border-style:solid;
+  transition:transform .18s ease,border-color .18s ease,background .18s ease
+}
+.photo-slot:hover{
+  transform:translateY(-2px);
+  border-color:#547d87;
+  background:linear-gradient(135deg,#13252b,#0d171b)
+}
+.photo-slot[data-photo-type="storefront"]{border-top:4px solid #58bdd1}
+.photo-slot[data-photo-type="night-24-7"]{border-bottom:4px solid #275cb8}
+
+.zone-cards article{
+  border-top:3px solid transparent;
+  transition:border-color .18s ease,transform .18s ease
+}
+.zone-cards article:hover{
+  border-top-color:#58bdd1;
+  transform:translateY(-2px)
+}
+
+.route-summary{
+  display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:22px
+}
+.route-summary>div{
+  background:rgba(4,21,28,.46);border:1px solid #355664;padding:14px
+}
+.route-summary span,.route-summary strong,.route-summary small{display:block}
+.route-summary span{
+  font-size:7px;font-weight:900;color:#7fd5e4;letter-spacing:.10em
+}
+.route-summary strong{font-size:10px;margin:5px 0}
+.route-summary small{font-size:8px;color:#adbac0}
+
+.request-form{border-top-width:4px}
+.request-form input,.request-form select,.request-form textarea{
+  transition:border-color .15s ease,box-shadow .15s ease
+}
+.request-form input:focus,.request-form select:focus,.request-form textarea:focus{
+  border-color:#81c6d5;
+  box-shadow:0 0 0 3px rgba(88,189,209,.08);
+  outline:0
+}
+.urgent-call{
+  display:block;margin-top:12px;font-size:8px;font-weight:900;
+  letter-spacing:.08em;color:#236b7b
+}
+.mobile-fields:not([hidden]){animation:revealFields .18s ease-out}
+@keyframes revealFields{
+  from{opacity:0;transform:translateY(-5px)}
+  to{opacity:1;transform:translateY(0)}
+}
+
+.map-placeholder{box-shadow:inset 0 -4px rgba(88,189,209,.14)}
+.accordion details[open]{background:rgba(37,92,184,.018)}
+.accordion summary:hover{color:#245a68}
+
+.cta-blue{opacity:.34}
+.cta-steel{opacity:.045}
+.final-cta:after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(90deg,rgba(5,27,39,.25),transparent 58%);
+  pointer-events:none
+}
+.final-grid,.cta-grid{z-index:2}
+
+@media(max-width:760px){
+  .hero-teal{opacity:.38}
+  .hero-steel,.hero-road,.hero-asphalt{opacity:.035}
+  .route-summary{grid-template-columns:1fr}
+  .gallery-steel,.gallery-road{opacity:.045}
+}
+@media(max-width:430px){
+  .hero-status{margin-bottom:12px}
+  .location-card{padding:22px}
+}
+
+
+/* =========================================
+   P19 CONCORD — LOCATION VARIATION v1
+   Warm Teal / Local / Softer Property Focus
+   ========================================= */
+
+:root{
+  --concord-teal:#327f76;
+  --concord-teal-deep:#173f3c;
+  --concord-soft:#e7f0ec;
+  --concord-warm:#d7b86b;
+  --concord-warm-soft:#f0e6cd;
+}
+
+/* Physical shop hours differ from Charlotte locations. */
+body[data-location="concord"] .hero-status{
+  background:rgba(215,184,107,.12);
+  border-color:rgba(215,184,107,.34);
+}
+body[data-location="concord"] .status-dot{
+  background:var(--concord-warm);
+  box-shadow:0 0 0 4px rgba(215,184,107,.10);
+}
+
+/* Softer, warmer teal — lower texture density than Freedom / North Tryon. */
+body[data-location="concord"] .hero-teal{opacity:.34}
+body[data-location="concord"] .hero-steel{opacity:.035}
+body[data-location="concord"] .hero-road{opacity:.03}
+body[data-location="concord"] .hero-asphalt{opacity:.035}
+body[data-location="concord"] .hero-splatter{opacity:.025}
+body[data-location="concord"] .hero-shade{
+  background:linear-gradient(90deg,#102d2a 0%,rgba(16,45,42,.92) 42%,rgba(16,45,42,.58) 69%,rgba(16,45,42,.20));
+}
+body[data-location="concord"] .location-hero:after{
+  content:"";position:absolute;left:0;right:0;bottom:0;height:145px;
+  background:linear-gradient(180deg,transparent,rgba(12,38,35,.20));pointer-events:none;
+}
+body[data-location="concord"] .hero-grid{z-index:2}
+
+body[data-location="concord"] .location-card{
+  background:rgba(23,63,60,.90);
+  border-color:rgba(215,184,107,.28);
+  border-top:4px solid var(--concord-warm);
+  box-shadow:0 26px 72px rgba(0,0,0,.23),inset 0 -4px rgba(215,184,107,.12);
+}
+body[data-location="concord"] .location-phone{color:#f0d792}
+body[data-location="concord"] .location-actions a:hover{color:#f0d792}
+
+/* Branch fact / highlight sections */
+body[data-location="concord"] .fact-cards article{
+  border-top-color:var(--concord-teal);
+  box-shadow:0 10px 26px rgba(31,87,78,.035);
+}
+body[data-location="concord"] .fact-cards article:hover{border-top-color:var(--concord-warm)}
+body[data-location="concord"] .feature-band{
+  background:#173f3c;
+}
+body[data-location="concord"] .feature-steel{opacity:.055}
+body[data-location="concord"] .feature-road{opacity:.025}
+body[data-location="concord"] .feature-asphalt{opacity:.08}
+body[data-location="concord"] .highlight-grid article{
+  border-top:3px solid rgba(215,184,107,.42);
+  background:rgba(20,53,50,.78);
+  box-shadow:inset 0 -3px rgba(215,184,107,.08);
+}
+body[data-location="concord"] .highlight-grid span{color:#edd28c}
+
+/* Property album: warmer and brighter than the Charlotte branches. */
+body[data-location="concord"] .gallery-section{background:#142f2d}
+body[data-location="concord"] .gallery-steel{opacity:.035}
+body[data-location="concord"] .gallery-road{opacity:.02}
+body[data-location="concord"] .gallery-asphalt{opacity:.07}
+body[data-location="concord"] .gallery-section:after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(90deg,rgba(24,67,62,.14),transparent 58%);
+}
+body[data-location="concord"] .photo-slot{
+  background:linear-gradient(135deg,#1a3f3b,#142523);
+  border-color:#496c65;
+}
+body[data-location="concord"] .photo-slot:hover{
+  border-color:#9e9570;
+  background:linear-gradient(135deg,#204a45,#172927);
+}
+body[data-location="concord"] .photo-slot[data-photo-type="storefront"]{border-top:4px solid var(--concord-warm)}
+body[data-location="concord"] .photo-slot[data-photo-type="evening-property"]{border-bottom:4px solid var(--concord-teal)}
+
+/* Zone + forms */
+body[data-location="concord"] .zone-cards article:hover{border-top-color:var(--concord-teal)}
+body[data-location="concord"] .form-section{background:#214f49}
+body[data-location="concord"] .form-texture{opacity:.025}
+body[data-location="concord"] .request-form{border-top-color:var(--concord-warm)}
+body[data-location="concord"] .request-form input:focus,
+body[data-location="concord"] .request-form select:focus,
+body[data-location="concord"] .request-form textarea:focus{
+  border-color:#a99b70;
+  box-shadow:0 0 0 3px rgba(215,184,107,.09);
+}
+body[data-location="concord"] .after-hours-note{
+  background:rgba(215,184,107,.10);
+  border-left:4px solid var(--concord-warm);
+  padding:12px 14px;
+  color:#dfe9e4;
+  font-size:9px;
+  margin:18px 0 10px;
+}
+body[data-location="concord"] .after-hours-note a{color:#f1d999;font-weight:900}
+
+/* Map + CTA */
+body[data-location="concord"] .map-section{background:#255a54}
+body[data-location="concord"] .map-placeholder{
+  border-color:#67877f;
+  box-shadow:inset 0 -4px rgba(215,184,107,.12);
+}
+body[data-location="concord"] .final-cta{
+  background:#2c766b;
+}
+body[data-location="concord"] .cta-blue,
+body[data-location="concord"] .cta-gradient{opacity:.20}
+body[data-location="concord"] .cta-steel{opacity:.025}
+body[data-location="concord"] .cta-splatter{opacity:.02}
+body[data-location="concord"] .final-cta:after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(90deg,rgba(28,76,69,.30),transparent 60%);
+  pointer-events:none;
+}
+body[data-location="concord"] .final-grid,
+body[data-location="concord"] .cta-grid{z-index:2}
+
+/* Keep global green for universal T4L actions, warm accent for branch identity. */
+body[data-location="concord"] .eyebrow.teal,
+body[data-location="concord"] .text-link{color:var(--concord-teal)}
+body[data-location="concord"] .accordion summary:after{color:var(--concord-teal)}
+body[data-location="concord"] .accordion details[open]{background:rgba(50,127,118,.025)}
+
+@media(max-width:760px){
+  body[data-location="concord"] .hero-teal{opacity:.27}
+  body[data-location="concord"] .hero-steel,
+  body[data-location="concord"] .hero-road,
+  body[data-location="concord"] .hero-asphalt,
+  body[data-location="concord"] .hero-splatter{opacity:.02}
+  body[data-location="concord"] .gallery-steel,
+  body[data-location="concord"] .gallery-road,
+  body[data-location="concord"] .gallery-asphalt{opacity:.025}
+}
+
+
+/* =========================================
+   P19 CONCORD — REFINEMENT / FREEZE PASS
+   ========================================= */
+
+/* Softer property-first identity than the Charlotte branches */
+body[data-location="concord"] .hero-photo-placeholder{
+  background:linear-gradient(135deg,#285c56,#142b28);
+}
+body[data-location="concord"] .hero-photo-placeholder:before{
+  background:
+    linear-gradient(25deg,transparent 52%,rgba(215,184,107,.13) 53%,transparent 56%),
+    linear-gradient(120deg,transparent 68%,rgba(255,255,255,.05) 69%,transparent 71%);
+}
+body[data-location="concord"] .geo-grid{
+  opacity:.34;
+}
+body[data-location="concord"] .location-hero h1 span{
+  color:#e2c679;
+}
+body[data-location="concord"] .hero-lede{
+  color:#d7e1dc;
+}
+body[data-location="concord"] .hours-detail{
+  margin:-4px 0 12px;
+  color:#efd995;
+  font-size:8px;
+  font-weight:900;
+  letter-spacing:.11em;
+}
+
+/* Keep universal T4L green on core conversion CTAs, warm accent on branch identity */
+body[data-location="concord"] .hero-status{
+  color:#f3dfaa;
+}
+body[data-location="concord"] .quick-grid a:nth-child(1),
+body[data-location="concord"] .quick-grid a:nth-child(2){
+  box-shadow:inset 0 -3px rgba(215,184,107,.10);
+}
+body[data-location="concord"] .quick-grid a:hover{
+  background:#173a36;
+}
+
+/* Softer light sections */
+body[data-location="concord"] .facts-section,
+body[data-location="concord"] .services-section,
+body[data-location="concord"] .zones-section,
+body[data-location="concord"] .tire-form-section,
+body[data-location="concord"] .faq-section{
+  background:#fafaf7;
+}
+body[data-location="concord"] .fact-cards article,
+body[data-location="concord"] .service-card,
+body[data-location="concord"] .zone-cards article{
+  box-shadow:0 10px 26px rgba(26,65,60,.03);
+}
+
+/* Concord album reads as a property album first */
+body[data-location="concord"] .gallery-grid{
+  gap:12px;
+}
+body[data-location="concord"] .photo-slot{
+  box-shadow:inset 0 -3px rgba(215,184,107,.04);
+}
+body[data-location="concord"] .photo-slot span{
+  background:rgba(19,47,44,.74);
+  padding:7px 9px;
+  border-left:3px solid #d7b86b;
+}
+body[data-location="concord"] .photo-slot small{
+  padding-left:12px;
+}
+body[data-location="concord"] .photo-slot[data-photo-type="evening-property"]{
+  border-bottom-color:#d7b86b;
+}
+
+/* Form hierarchy */
+body[data-location="concord"] .route-summary>div{
+  background:rgba(31,73,67,.52);
+  border-color:#557970;
+}
+body[data-location="concord"] .route-summary span{
+  color:#efd995;
+}
+body[data-location="concord"] .urgent-call{
+  color:#8c6f26;
+}
+body[data-location="concord"] .mobile-fields{
+  background:#f5f0e3;
+  border-left-color:#d7b86b;
+}
+body[data-location="concord"] .size-demo i{
+  color:#c7a24c;
+}
+
+/* Concord map is more local/property-oriented */
+body[data-location="concord"] .map-section .geo-grid{
+  opacity:.24;
+}
+body[data-location="concord"] .map-placeholder{
+  background:rgba(26,73,67,.72);
+}
+
+/* FAQ / conversion */
+body[data-location="concord"] .accordion summary:hover{
+  color:#396f68;
+}
+body[data-location="concord"] .final-cta .eyebrow{
+  color:#f0dda8;
+}
+
+/* Accessibility/focus */
+body[data-location="concord"] a:focus-visible,
+body[data-location="concord"] button:focus-visible,
+body[data-location="concord"] input:focus-visible,
+body[data-location="concord"] select:focus-visible,
+body[data-location="concord"] textarea:focus-visible,
+body[data-location="concord"] summary:focus-visible{
+  outline-color:#d7b86b;
+}
+
+@media(max-width:760px){
+  body[data-location="concord"] .hero-photo-placeholder{opacity:.22}
+  body[data-location="concord"] .geo-grid{opacity:.20}
+  body[data-location="concord"] .gallery-grid{gap:9px}
+}

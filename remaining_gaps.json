@@ -1,0 +1,72 @@
+[
+  {
+    "ID": "GAP-001",
+    "Area": "Real business photography",
+    "Status": "Open — structure preserved",
+    "Gap": "Storefront, interior, service-bay, team and customer-job photos have not been supplied for every intended slot.",
+    "NextAction": "Replace branded holds only with approved Tires 4 Less photography. Do not use stock as business proof."
+  },
+  {
+    "ID": "GAP-002",
+    "Area": "Before and after work",
+    "Status": "Open — structure preserved",
+    "Gap": "Verified before/after job sets are not supplied.",
+    "NextAction": "Add matched real job sets after service and customer-use approval are confirmed."
+  },
+  {
+    "ID": "GAP-003",
+    "Area": "Freedom Drive and North Tryon reviews",
+    "Status": "Evidence hold — structure preserved",
+    "Gap": "The review workbook contains discovery signals but not the complete reviewer, rating, full body and direct evidence needed for publication at those locations.",
+    "NextAction": "Publish only after the missing verification fields are captured."
+  },
+  {
+    "ID": "GAP-004",
+    "Area": "Individual review links",
+    "Status": "Open",
+    "Gap": "Published screenshot-backed reviews use verified profile attribution because individual Google review share URLs remain missing.",
+    "NextAction": "Replace profile links with the exact individual share URLs when captured."
+  },
+  {
+    "ID": "GAP-005",
+    "Area": "Warranty claims",
+    "Status": "Content hold",
+    "Gap": "Used Tire and Rim Repair warranty terms remain unverified.",
+    "NextAction": "Add only owner-approved duration, exclusions and claim procedures."
+  },
+  {
+    "ID": "GAP-006",
+    "Area": "Service zones and heavy capability",
+    "Status": "Operations hold",
+    "Gap": "Exact Roadside/Towing zones, heavy towing equipment and expanded diesel/commercial capabilities remain unverified.",
+    "NextAction": "Keep call-to-confirm language until authoritative operating details are supplied."
+  },
+  {
+    "ID": "GAP-007",
+    "Area": "Email end-to-end test",
+    "Status": "Launch test required",
+    "Gap": "The Apps Script endpoint is online, but a real form submission must be confirmed in the business inbox, customer receipt inbox and private Sheet after hosting/staging integration.",
+    "NextAction": "Run one controlled test for Tire Availability, Shop Service, Auto Glass, Roadside and Towing."
+  },
+  {
+    "ID": "GAP-008",
+    "Area": "Hosting and DNS",
+    "Status": "Launch blocker",
+    "Gap": "Hosting account and DNS authority for tiress4less.com have not been provided.",
+    "NextAction": "Obtain access, upload this build, connect the domain, then replace the provisional canonical, sitemap and robots host."
+  },
+  {
+    "ID": "GAP-009",
+    "Area": "Analytics and conversion IDs",
+    "Status": "Owner input required",
+    "Gap": "No Google Analytics, Tag Manager or advertising measurement ID is activated.",
+    "NextAction": "Supply the exact approved IDs and consent/disclosure decision before instrumentation is enabled."
+  },
+  {
+    "ID": "GAP-010",
+    "Area": "Policy review",
+    "Status": "Refined — owner/legal approval required",
+    "Gap": "Customer-facing privacy, accessibility, website terms and cookies notices are now structured and styled, but jurisdiction-specific legal approval and owner-supplied legal fields remain outstanding.",
+    "NextAction": "Confirm legal entity, mailing address, retention rules, state-specific rights, governing law and provider disclosures with the owner or counsel before launch."
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "name": "tires4less-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tires 4 Less website and same-origin Google Apps Script relay",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

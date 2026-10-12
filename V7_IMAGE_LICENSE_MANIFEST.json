@@ -1,0 +1,433 @@
+{
+  "version": "V7 FINAL semantic-corrected",
+  "license_provider": "Pexels",
+  "license_url": "https://www.pexels.com/license/",
+  "important_use_note": "Licensed images are illustrative service/editorial/category assets. They are not presented as actual Tires 4 Less locations, employees, customer jobs or reviews.",
+  "assets": [
+    {
+      "asset": "alignment",
+      "photo_id": "3806288",
+      "subject": "wheel alignment equipment attached to a vehicle",
+      "author": "Andrea Piacquadio",
+      "source_page": "https://www.pexels.com/photo/man-in-black-jacket-standing-beside-black-car-3806288/",
+      "image_url": "https://images.pexels.com/photos/3806288/pexels-photo-3806288.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "road-notes.html",
+        "wheel-alignment.html"
+      ]
+    },
+    {
+      "asset": "battery",
+      "photo_id": "8478228",
+      "subject": "12-volt automotive battery under an open hood",
+      "author": "19X14",
+      "source_page": "https://www.pexels.com/photo/open-hood-of-a-car-8478228/",
+      "image_url": "https://images.pexels.com/photos/8478228/pexels-photo-8478228.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "battery-service.html"
+      ]
+    },
+    {
+      "asset": "battery_test",
+      "photo_id": "8556051",
+      "subject": "hands checking an automotive battery connection under the hood",
+      "author": "Towfiqu barbhuiya",
+      "source_page": "https://www.pexels.com/photo/a-person-holding-red-and-black-hand-tool-8556051/",
+      "image_url": "https://images.pexels.com/photos/8556051/pexels-photo-8556051.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "battery-service.html"
+      ]
+    },
+    {
+      "asset": "brakes",
+      "photo_id": "30470930",
+      "subject": "technician servicing a brake rotor and caliper",
+      "author": "Agustin Olmedo",
+      "source_page": "https://www.pexels.com/photo/automotive-brake-maintenance-in-workshop-30470930/",
+      "image_url": "https://images.pexels.com/photos/30470930/pexels-photo-30470930.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "auto-repair.html",
+        "brakes-rotors.html",
+        "reviews.html"
+      ]
+    },
+    {
+      "asset": "commercial",
+      "photo_id": "7019365",
+      "subject": "mechanic working beside a commercial truck in a dark workshop",
+      "author": "cottonbro studio",
+      "source_page": "https://www.pexels.com/photo/auto-mechanic-working-on-car-shop-7019365/",
+      "image_url": "https://images.pexels.com/photos/7019365/pexels-photo-7019365.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "commercial-tires.html",
+        "reviews.html",
+        "services.html",
+        "tires.html"
+      ]
+    },
+    {
+      "asset": "commercial_inventory",
+      "photo_id": "29348624",
+      "subject": "row of stacked truck tires in an industrial setting",
+      "author": "Robert So",
+      "source_page": "https://www.pexels.com/photo/stacked-truck-tires-in-industrial-setting-29348624/",
+      "image_url": "https://images.pexels.com/photos/29348624/pexels-photo-29348624.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "commercial-tires.html"
+      ]
+    },
+    {
+      "asset": "commercial_truck_tire",
+      "photo_id": "7019610",
+      "subject": "commercial truck tires in a garage maintenance setting",
+      "author": "cottonbro studio",
+      "source_page": "https://www.pexels.com/photo/photograph-of-a-dirty-tire-7019610/",
+      "image_url": "https://images.pexels.com/photos/7019610/pexels-photo-7019610.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "commercial-tires.html"
+      ]
+    },
+    {
+      "asset": "general_shop",
+      "photo_id": "32152039",
+      "subject": "vehicle on a lift in a modern auto repair shop",
+      "author": "Azli Nawawi",
+      "source_page": "https://www.pexels.com/photo/car-maintenance-in-a-modern-auto-repair-shop-32152039/",
+      "image_url": "https://images.pexels.com/photos/32152039/pexels-photo-32152039.jpeg?auto=compress&cs=tinysrgb&w=2200",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "contact.html",
+        "index.html",
+        "reviews.html",
+        "services.html"
+      ]
+    },
+    {
+      "asset": "glass_damage",
+      "photo_id": "19773544",
+      "subject": "cracked windshield viewed from inside a vehicle",
+      "author": "Alex Dos Santos",
+      "source_page": "https://www.pexels.com/photo/cracks-on-windshield-of-car-on-road-19773544/",
+      "image_url": "https://images.pexels.com/photos/19773544/pexels-photo-19773544.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "auto-glass.html",
+        "services.html"
+      ]
+    },
+    {
+      "asset": "glass_detail",
+      "photo_id": "11950157",
+      "subject": "close-up of windshield sealant application",
+      "author": "UK CAR GLASS",
+      "source_page": "https://www.pexels.com/photo/auto-glass-technician-putting-glue-from-glass-placement-11950157/",
+      "image_url": "https://images.pexels.com/photos/11950157/pexels-photo-11950157.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "auto-glass.html"
+      ]
+    },
+    {
+      "asset": "glass_service",
+      "photo_id": "11950156",
+      "subject": "technician applying sealant during windshield service",
+      "author": "UK CAR GLASS",
+      "source_page": "https://www.pexels.com/photo/man-fixing-windshield-of-car-11950156/",
+      "image_url": "https://images.pexels.com/photos/11950156/pexels-photo-11950156.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "auto-glass.html",
+        "reviews.html",
+        "services.html"
+      ]
+    },
+    {
+      "asset": "oil",
+      "photo_id": "10490610",
+      "subject": "mechanic checking a vehicle under the hood",
+      "author": "Fatih Erden",
+      "source_page": "https://www.pexels.com/photo/a-mechanic-checking-the-oil-of-a-car-10490610/",
+      "image_url": "https://images.pexels.com/photos/10490610/pexels-photo-10490610.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "auto-repair.html",
+        "oil-change.html"
+      ]
+    },
+    {
+      "asset": "oil_under",
+      "photo_id": "32152037",
+      "subject": "mechanic inspecting a vehicle from underneath in a repair shop",
+      "author": "Azli Nawawi",
+      "source_page": "https://www.pexels.com/photo/mechanic-working-under-car-in-repair-shop-32152037/",
+      "image_url": "https://images.pexels.com/photos/32152037/pexels-photo-32152037.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "oil-change.html"
+      ]
+    },
+    {
+      "asset": "rim_clean",
+      "photo_id": "34357281",
+      "subject": "alloy wheel displayed with stacked tires",
+      "author": "Erik Mclean",
+      "source_page": "https://www.pexels.com/photo/stack-of-car-tires-with-alloy-wheel-indoors-34357281/",
+      "image_url": "https://images.pexels.com/photos/34357281/pexels-photo-34357281.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "reviews.html",
+        "rim-repair.html",
+        "tire-balancing.html",
+        "tires.html",
+        "used-tires.html"
+      ]
+    },
+    {
+      "asset": "rim_damage",
+      "photo_id": "6270443",
+      "subject": "damaged wheel and tire",
+      "author": "Brett Jordan",
+      "source_page": "https://www.pexels.com/photo/close-up-of-a-damaged-rim-and-tire-6270443/",
+      "image_url": "https://images.pexels.com/photos/6270443/pexels-photo-6270443.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "rim-repair.html"
+      ]
+    },
+    {
+      "asset": "rim_process",
+      "photo_id": "15549918",
+      "subject": "mechanic working on an alloy wheel in a garage",
+      "author": "SHAI YYC",
+      "source_page": "https://www.pexels.com/photo/mechanic-looking-at-allow-wheel-15549918/",
+      "image_url": "https://images.pexels.com/photos/15549918/pexels-photo-15549918.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "rim-repair.html"
+      ]
+    },
+    {
+      "asset": "roadside_action",
+      "photo_id": "16682793",
+      "subject": "roadside wheel and tire service",
+      "author": "FBO Media",
+      "source_page": "https://www.pexels.com/photo/man-fixing-the-tire-in-a-car-16682793/",
+      "image_url": "https://images.pexels.com/photos/16682793/pexels-photo-16682793.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "road-notes.html",
+        "roadside.html"
+      ]
+    },
+    {
+      "asset": "roadside_van",
+      "photo_id": "8660855",
+      "subject": "mobile tire service truck stocked with tires and equipment",
+      "author": "Mykola Volkov",
+      "source_page": "https://www.pexels.com/photo/black-tires-in-the-truck-8660855/",
+      "image_url": "https://images.pexels.com/photos/8660855/pexels-photo-8660855.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "reviews.html",
+        "road-notes.html",
+        "roadside.html",
+        "services.html"
+      ]
+    },
+    {
+      "asset": "shock_closeup",
+      "photo_id": "33024451",
+      "subject": "close-up of a vehicle suspension and shock assembly in a workshop",
+      "author": "FBO Media",
+      "source_page": "https://www.pexels.com/photo/close-up-of-custom-vehicle-suspension-system-in-workshop-33024451/",
+      "image_url": "https://images.pexels.com/photos/33024451/pexels-photo-33024451.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "shocks-struts.html"
+      ]
+    },
+    {
+      "asset": "sidewall",
+      "photo_id": "16685597",
+      "subject": "close-up of tire sidewall markings",
+      "author": "Erik Mclean",
+      "source_page": "https://www.pexels.com/photo/close-up-of-a-car-tire-16685597/",
+      "image_url": "https://images.pexels.com/photos/16685597/pexels-photo-16685597.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "road-notes.html"
+      ]
+    },
+    {
+      "asset": "suspension",
+      "photo_id": "4116173",
+      "subject": "mechanic inspecting suspension components under a vehicle",
+      "author": "Lumiere Studio MX",
+      "source_page": "https://www.pexels.com/photo/a-person-in-orange-shirt-checking-the-car-suspension-4116173/",
+      "image_url": "https://images.pexels.com/photos/4116173/pexels-photo-4116173.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "suspension-steering.html"
+      ]
+    },
+    {
+      "asset": "suspension_detail",
+      "photo_id": "34277924",
+      "subject": "close-up of a vehicle suspension and brake assembly in a garage",
+      "author": "Erik Mclean",
+      "source_page": "https://www.pexels.com/photo/detailed-view-of-car-suspension-system-34277924/",
+      "image_url": "https://images.pexels.com/photos/34277924/pexels-photo-34277924.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "shocks-struts.html",
+        "suspension-steering.html"
+      ]
+    },
+    {
+      "asset": "tire_install",
+      "photo_id": "6870318",
+      "subject": "mechanic installing a wheel with an impact tool",
+      "author": "Gustavo Fring",
+      "source_page": "https://www.pexels.com/photo/a-man-installing-a-tire-into-a-car-6870318/",
+      "image_url": "https://images.pexels.com/photos/6870318/pexels-photo-6870318.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "new-tires.html",
+        "tire-installation.html",
+        "tire-repair.html",
+        "tire-rotation.html",
+        "used-tires.html"
+      ]
+    },
+    {
+      "asset": "tire_pressure",
+      "photo_id": "3807695",
+      "subject": "mechanic checking tire pressure in a service garage",
+      "author": "Andrea Piacquadio",
+      "source_page": "https://www.pexels.com/photo/serious-car-mechanic-pumping-up-car-wheel-in-modern-service-garage-3807695/",
+      "image_url": "https://images.pexels.com/photos/3807695/pexels-photo-3807695.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "tire-balancing.html",
+        "tire-installation.html"
+      ]
+    },
+    {
+      "asset": "tire_repair",
+      "photo_id": "32208774",
+      "subject": "mechanic repairing a tire in a workshop",
+      "author": "Bulat843",
+      "source_page": "https://www.pexels.com/photo/mechanic-repairing-a-tire-in-workshop-32208774/",
+      "image_url": "https://images.pexels.com/photos/32208774/pexels-photo-32208774.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "reviews.html",
+        "services.html",
+        "tire-repair.html",
+        "tires.html"
+      ]
+    },
+    {
+      "asset": "tire_rotation",
+      "photo_id": "17600886",
+      "subject": "mechanic removing or installing a car wheel",
+      "author": "Frans van Heerden",
+      "source_page": "https://www.pexels.com/photo/mechanic-changing-car-wheel-17600886/",
+      "image_url": "https://images.pexels.com/photos/17600886/pexels-photo-17600886.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "tire-rotation.html"
+      ]
+    },
+    {
+      "asset": "tire_shop_mechanic",
+      "photo_id": "6870316",
+      "subject": "mechanic handling a tire in a busy automotive workshop",
+      "author": "Gustavo Fring",
+      "source_page": "https://www.pexels.com/photo/a-man-wearing-blue-uniform-holding-a-car-tire-6870316/",
+      "image_url": "https://images.pexels.com/photos/6870316/pexels-photo-6870316.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "new-tires.html",
+        "tire-balancing.html"
+      ]
+    },
+    {
+      "asset": "towing",
+      "photo_id": "10061763",
+      "subject": "vehicle being loaded onto a tow truck",
+      "author": "Daniel Queiroz",
+      "source_page": "https://www.pexels.com/photo/a-tow-truck-with-car-10061763/",
+      "image_url": "https://images.pexels.com/photos/10061763/pexels-photo-10061763.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "reviews.html",
+        "towing.html"
+      ]
+    },
+    {
+      "asset": "towing_alt",
+      "photo_id": "17429097",
+      "subject": "tow truck operator loading a pickup truck",
+      "author": "Jonathan Reynaga",
+      "source_page": "https://www.pexels.com/photo/a-car-on-a-tow-truck-17429097/",
+      "image_url": "https://images.pexels.com/photos/17429097/pexels-photo-17429097.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "towing.html"
+      ]
+    },
+    {
+      "asset": "tpms_warning",
+      "photo_id": "10205348",
+      "subject": "dashboard tire-pressure warning indicator",
+      "author": "Evgeniy Lejnev",
+      "source_page": "https://www.pexels.com/photo/close-up-photo-of-a-tachometer-10205348/",
+      "image_url": "https://images.pexels.com/photos/10205348/pexels-photo-10205348.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "road-notes.html",
+        "tpms-service.html"
+      ]
+    },
+    {
+      "asset": "tread",
+      "photo_id": "34357290",
+      "subject": "close-up of detailed tire tread",
+      "author": "Erik Mclean",
+      "source_page": "https://www.pexels.com/photo/close-up-of-car-tire-tread-with-detailed-pattern-34357290/",
+      "image_url": "https://images.pexels.com/photos/34357290/pexels-photo-34357290.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "new-tires.html",
+        "road-notes.html",
+        "tire-rotation.html",
+        "tires.html",
+        "used-tires.html"
+      ]
+    },
+    {
+      "asset": "undercarriage",
+      "photo_id": "8986119",
+      "subject": "mechanic inspecting the undercarriage of a vehicle on a lift",
+      "author": "Artem Podrez",
+      "source_page": "https://www.pexels.com/photo/mechanic-standing-under-a-car-on-a-car-lift-8986119/",
+      "image_url": "https://images.pexels.com/photos/8986119/pexels-photo-8986119.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "routes": [
+        "auto-repair.html",
+        "brakes-rotors.html",
+        "oil-change.html",
+        "shocks-struts.html",
+        "suspension-steering.html"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace this provisional domain when the DNS owner confirms the final canonical host.
+Sitemap: https://tiress4less.com/sitemap.xml

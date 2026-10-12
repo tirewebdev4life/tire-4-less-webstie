@@ -1,0 +1,412 @@
+[
+  {
+    "PageID": "P01",
+    "Page": "Home",
+    "Route": "index.html",
+    "Type": "Core 19",
+    "FormCount": 2,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "P02",
+    "Page": "Tires Landing",
+    "Route": "tires.html",
+    "Type": "Core 19",
+    "FormCount": 2,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "P03",
+    "Page": "Used Tires",
+    "Route": "used-tires.html",
+    "Type": "Core 19",
+    "FormCount": 1,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "P04",
+    "Page": "New Tires",
+    "Route": "new-tires.html",
+    "Type": "Core 19",
+    "FormCount": 1,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "P05",
+    "Page": "Semi & Commercial",
+    "Route": "commercial-tires.html",
+    "Type": "Core 19",
+    "FormCount": 1,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "P06",
+    "Page": "All Services",
+    "Route": "services.html",
+    "Type": "Core 19",
+    "FormCount": 0,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "P07",
+    "Page": "Tire Repair",
+    "Route": "tire-repair.html",
+    "Type": "Core 19",
+    "FormCount": 1,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "P08",
+    "Page": "Auto & Truck Repair",
+    "Route": "auto-repair.html",
+    "Type": "Core 19",
+    "FormCount": 1,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "P09",
+    "Page": "Rim Repair",
+    "Route": "rim-repair.html",
+    "Type": "Core 19",
+    "FormCount": 1,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "P10",
+    "Page": "Towing",
+    "Route": "towing.html",
+    "Type": "Core 19",
+    "FormCount": 0,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "P11",
+    "Page": "Roadside Assistance",
+    "Route": "roadside.html",
+    "Type": "Core 19",
+    "FormCount": 0,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "P12",
+    "Page": "Locations Hub",
+    "Route": "locations.html",
+    "Type": "Core 19",
+    "FormCount": 2,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "P13",
+    "Page": "Road Notes",
+    "Route": "road-notes.html",
+    "Type": "Core 19",
+    "FormCount": 0,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "P14",
+    "Page": "About / Team",
+    "Route": "about.html",
+    "Type": "Core 19",
+    "FormCount": 0,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "P15",
+    "Page": "Reviews / Our Work",
+    "Route": "reviews.html",
+    "Type": "Core 19",
+    "FormCount": 0,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "P16",
+    "Page": "Contact",
+    "Route": "contact.html",
+    "Type": "Core 19",
+    "FormCount": 3,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "P17",
+    "Page": "Freedom Drive",
+    "Route": "freedom-drive.html",
+    "Type": "Core 19",
+    "FormCount": 2,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "P18",
+    "Page": "North Tryon",
+    "Route": "north-tryon.html",
+    "Type": "Core 19",
+    "FormCount": 2,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "P19",
+    "Page": "Concord",
+    "Route": "concord.html",
+    "Type": "Core 19",
+    "FormCount": 2,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "S01",
+    "Page": "Tire Installation",
+    "Route": "tire-installation.html",
+    "Type": "Added Service Detail",
+    "FormCount": 0,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "S02",
+    "Page": "Tire Rotation",
+    "Route": "tire-rotation.html",
+    "Type": "Added Service Detail",
+    "FormCount": 0,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "S03",
+    "Page": "Tire Balancing",
+    "Route": "tire-balancing.html",
+    "Type": "Added Service Detail",
+    "FormCount": 0,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "S04",
+    "Page": "TPMS Service",
+    "Route": "tpms-service.html",
+    "Type": "Added Service Detail",
+    "FormCount": 0,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "S05",
+    "Page": "Wheel Alignment",
+    "Route": "wheel-alignment.html",
+    "Type": "Added Service Detail",
+    "FormCount": 0,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "S06",
+    "Page": "Brakes & Rotors",
+    "Route": "brakes-rotors.html",
+    "Type": "Added Service Detail",
+    "FormCount": 0,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "S07",
+    "Page": "Oil Change",
+    "Route": "oil-change.html",
+    "Type": "Added Service Detail",
+    "FormCount": 0,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "S08",
+    "Page": "Battery Service",
+    "Route": "battery-service.html",
+    "Type": "Added Service Detail",
+    "FormCount": 0,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "S09",
+    "Page": "Suspension & Steering",
+    "Route": "suspension-steering.html",
+    "Type": "Added Service Detail",
+    "FormCount": 0,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "S10",
+    "Page": "Shocks & Struts",
+    "Route": "shocks-struts.html",
+    "Type": "Added Service Detail",
+    "FormCount": 0,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "S11",
+    "Page": "Auto Glass",
+    "Route": "auto-glass.html",
+    "Type": "Added Service Detail",
+    "FormCount": 0,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "P20",
+    "Page": "Financing",
+    "Route": "finance.html",
+    "Type": "Core Finance",
+    "FormCount": 0,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "R01",
+    "Page": "Road Note — Tire Size",
+    "Route": "road-note-tire-size.html",
+    "Type": "Road Notes Article",
+    "FormCount": 0,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "R02",
+    "Page": "Road Note — New vs Used",
+    "Route": "road-note-new-vs-used.html",
+    "Type": "Road Notes Article",
+    "FormCount": 0,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "R03",
+    "Page": "Road Note — Balance vs Alignment",
+    "Route": "road-note-balance-vs-alignment.html",
+    "Type": "Road Notes Article",
+    "FormCount": 0,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "R04",
+    "Page": "Road Note — Roadside Ready",
+    "Route": "road-note-roadside-ready.html",
+    "Type": "Road Notes Article",
+    "FormCount": 0,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "R05",
+    "Page": "Road Note — TPMS",
+    "Route": "road-note-tpms.html",
+    "Type": "Road Notes Article",
+    "FormCount": 0,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "R06",
+    "Page": "Road Note — Flat Tire",
+    "Route": "road-note-flat-tire.html",
+    "Type": "Road Notes Article",
+    "FormCount": 0,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "L01",
+    "Page": "Privacy",
+    "Route": "privacy.html",
+    "Type": "Policy",
+    "FormCount": 0,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "L02",
+    "Page": "Accessibility",
+    "Route": "accessibility.html",
+    "Type": "Policy",
+    "FormCount": 0,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "L03",
+    "Page": "Website Terms",
+    "Route": "terms.html",
+    "Type": "Policy",
+    "FormCount": 0,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  },
+  {
+    "PageID": "L04",
+    "Page": "Cookies",
+    "Route": "cookies.html",
+    "Type": "Policy",
+    "FormCount": 0,
+    "HasGlobalNav": true,
+    "HasGlobalFooter": true,
+    "Status": "Integrated"
+  }
+]

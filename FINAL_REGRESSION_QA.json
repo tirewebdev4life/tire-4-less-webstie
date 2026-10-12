@@ -1,0 +1,437 @@
+{
+  "html_count": 41,
+  "html_files": [
+    "about.html",
+    "accessibility.html",
+    "auto-glass.html",
+    "auto-repair.html",
+    "battery-service.html",
+    "brakes-rotors.html",
+    "commercial-tires.html",
+    "concord.html",
+    "contact.html",
+    "cookies.html",
+    "finance.html",
+    "freedom-drive.html",
+    "index.html",
+    "locations.html",
+    "new-tires.html",
+    "north-tryon.html",
+    "oil-change.html",
+    "privacy.html",
+    "reviews.html",
+    "rim-repair.html",
+    "road-note-balance-vs-alignment.html",
+    "road-note-flat-tire.html",
+    "road-note-new-vs-used.html",
+    "road-note-roadside-ready.html",
+    "road-note-tire-size.html",
+    "road-note-tpms.html",
+    "road-notes.html",
+    "roadside.html",
+    "services.html",
+    "shocks-struts.html",
+    "suspension-steering.html",
+    "terms.html",
+    "tire-balancing.html",
+    "tire-installation.html",
+    "tire-repair.html",
+    "tire-rotation.html",
+    "tires.html",
+    "towing.html",
+    "tpms-service.html",
+    "used-tires.html",
+    "wheel-alignment.html"
+  ],
+  "broken_local_links": [],
+  "broken_local_assets": [],
+  "remote_images": [],
+  "forms": [
+    {
+      "page": "auto-repair.html",
+      "id": "auto-service-form",
+      "purpose": null,
+      "action": null,
+      "email_required": true,
+      "handler_pending": false
+    },
+    {
+      "page": "commercial-tires.html",
+      "id": "commercial-form",
+      "purpose": null,
+      "action": null,
+      "email_required": true,
+      "handler_pending": false
+    },
+    {
+      "page": "concord.html",
+      "id": "service-form",
+      "purpose": null,
+      "action": null,
+      "email_required": true,
+      "handler_pending": false
+    },
+    {
+      "page": "concord.html",
+      "id": "tire-form",
+      "purpose": null,
+      "action": null,
+      "email_required": true,
+      "handler_pending": false
+    },
+    {
+      "page": "contact.html",
+      "id": "tire-form",
+      "purpose": null,
+      "action": null,
+      "email_required": true,
+      "handler_pending": false
+    },
+    {
+      "page": "contact.html",
+      "id": "service-form",
+      "purpose": null,
+      "action": null,
+      "email_required": true,
+      "handler_pending": false
+    },
+    {
+      "page": "contact.html",
+      "id": "auto-glass-form",
+      "purpose": "auto-glass-request",
+      "action": null,
+      "email_required": true,
+      "handler_pending": false
+    },
+    {
+      "page": "freedom-drive.html",
+      "id": "service-form",
+      "purpose": null,
+      "action": null,
+      "email_required": true,
+      "handler_pending": false
+    },
+    {
+      "page": "freedom-drive.html",
+      "id": "tire-form",
+      "purpose": null,
+      "action": null,
+      "email_required": true,
+      "handler_pending": false
+    },
+    {
+      "page": "index.html",
+      "id": "finder-form",
+      "purpose": "tire-availability-prefill",
+      "action": null,
+      "email_required": false,
+      "handler_pending": false
+    },
+    {
+      "page": "index.html",
+      "id": "request-form",
+      "purpose": "home-central-request",
+      "action": null,
+      "email_required": true,
+      "handler_pending": false
+    },
+    {
+      "page": "locations.html",
+      "id": "service-form",
+      "purpose": null,
+      "action": null,
+      "email_required": true,
+      "handler_pending": false
+    },
+    {
+      "page": "locations.html",
+      "id": "tire-form",
+      "purpose": null,
+      "action": null,
+      "email_required": true,
+      "handler_pending": false
+    },
+    {
+      "page": "new-tires.html",
+      "id": "new-tire-form",
+      "purpose": null,
+      "action": null,
+      "email_required": true,
+      "handler_pending": false
+    },
+    {
+      "page": "north-tryon.html",
+      "id": "service-form",
+      "purpose": null,
+      "action": null,
+      "email_required": true,
+      "handler_pending": false
+    },
+    {
+      "page": "north-tryon.html",
+      "id": "tire-form",
+      "purpose": null,
+      "action": null,
+      "email_required": true,
+      "handler_pending": false
+    },
+    {
+      "page": "rim-repair.html",
+      "id": "rim-form",
+      "purpose": null,
+      "action": null,
+      "email_required": true,
+      "handler_pending": false
+    },
+    {
+      "page": "tire-repair.html",
+      "id": "repair-form",
+      "purpose": null,
+      "action": null,
+      "email_required": true,
+      "handler_pending": false
+    },
+    {
+      "page": "tires.html",
+      "id": "finder-form",
+      "purpose": null,
+      "action": null,
+      "email_required": false,
+      "handler_pending": false
+    },
+    {
+      "page": "tires.html",
+      "id": "availability-form",
+      "purpose": null,
+      "action": null,
+      "email_required": true,
+      "handler_pending": false
+    },
+    {
+      "page": "used-tires.html",
+      "id": "used-tire-form",
+      "purpose": null,
+      "action": null,
+      "email_required": true,
+      "handler_pending": false
+    }
+  ],
+  "maps": {
+    "about.html": {
+      "iframes": 0,
+      "placeholders": 0,
+      "google_links": 3
+    },
+    "auto-repair.html": {
+      "iframes": 0,
+      "placeholders": 0,
+      "google_links": 3
+    },
+    "commercial-tires.html": {
+      "iframes": 0,
+      "placeholders": 0,
+      "google_links": 3
+    },
+    "concord.html": {
+      "iframes": 1,
+      "placeholders": 0,
+      "google_links": 4
+    },
+    "contact.html": {
+      "iframes": 0,
+      "placeholders": 0,
+      "google_links": 3
+    },
+    "freedom-drive.html": {
+      "iframes": 1,
+      "placeholders": 0,
+      "google_links": 4
+    },
+    "index.html": {
+      "iframes": 0,
+      "placeholders": 0,
+      "google_links": 3
+    },
+    "locations.html": {
+      "iframes": 0,
+      "placeholders": 0,
+      "google_links": 9
+    },
+    "new-tires.html": {
+      "iframes": 0,
+      "placeholders": 0,
+      "google_links": 3
+    },
+    "north-tryon.html": {
+      "iframes": 1,
+      "placeholders": 0,
+      "google_links": 4
+    },
+    "rim-repair.html": {
+      "iframes": 0,
+      "placeholders": 0,
+      "google_links": 3
+    },
+    "services.html": {
+      "iframes": 0,
+      "placeholders": 0,
+      "google_links": 3
+    },
+    "tire-repair.html": {
+      "iframes": 0,
+      "placeholders": 0,
+      "google_links": 3
+    },
+    "tires.html": {
+      "iframes": 0,
+      "placeholders": 0,
+      "google_links": 3
+    },
+    "used-tires.html": {
+      "iframes": 0,
+      "placeholders": 0,
+      "google_links": 3
+    }
+  },
+  "photo_holds": {
+    "about.html": 8,
+    "auto-glass.html": 0,
+    "auto-repair.html": 0,
+    "battery-service.html": 0,
+    "brakes-rotors.html": 0,
+    "commercial-tires.html": 0,
+    "concord.html": 7,
+    "contact.html": 0,
+    "finance.html": 0,
+    "freedom-drive.html": 7,
+    "index.html": 0,
+    "locations.html": 9,
+    "new-tires.html": 0,
+    "north-tryon.html": 7,
+    "oil-change.html": 0,
+    "reviews.html": 0,
+    "rim-repair.html": 0,
+    "road-note-balance-vs-alignment.html": 0,
+    "road-note-flat-tire.html": 0,
+    "road-note-new-vs-used.html": 0,
+    "road-note-roadside-ready.html": 0,
+    "road-note-tire-size.html": 0,
+    "road-note-tpms.html": 0,
+    "road-notes.html": 0,
+    "roadside.html": 0,
+    "services.html": 0,
+    "shocks-struts.html": 0,
+    "suspension-steering.html": 0,
+    "tire-balancing.html": 0,
+    "tire-installation.html": 0,
+    "tire-repair.html": 0,
+    "tire-rotation.html": 0,
+    "tires.html": 0,
+    "towing.html": 0,
+    "tpms-service.html": 0,
+    "used-tires.html": 0,
+    "wheel-alignment.html": 0
+  },
+  "image_counts": {
+    "about.html": 2,
+    "auto-glass.html": 3,
+    "auto-repair.html": 5,
+    "battery-service.html": 3,
+    "brakes-rotors.html": 3,
+    "commercial-tires.html": 5,
+    "concord.html": 9,
+    "contact.html": 1,
+    "finance.html": 3,
+    "freedom-drive.html": 9,
+    "index.html": 18,
+    "locations.html": 8,
+    "new-tires.html": 5,
+    "north-tryon.html": 9,
+    "oil-change.html": 3,
+    "reviews.html": 10,
+    "rim-repair.html": 5,
+    "road-note-balance-vs-alignment.html": 1,
+    "road-note-flat-tire.html": 1,
+    "road-note-new-vs-used.html": 1,
+    "road-note-roadside-ready.html": 1,
+    "road-note-tire-size.html": 1,
+    "road-note-tpms.html": 1,
+    "road-notes.html": 7,
+    "roadside.html": 4,
+    "services.html": 35,
+    "shocks-struts.html": 3,
+    "suspension-steering.html": 3,
+    "tire-balancing.html": 3,
+    "tire-installation.html": 3,
+    "tire-repair.html": 5,
+    "tire-rotation.html": 3,
+    "tires.html": 5,
+    "towing.html": 4,
+    "tpms-service.html": 1,
+    "used-tires.html": 5,
+    "wheel-alignment.html": 2
+  },
+  "duplicate_ids": {},
+  "finance_hits": [
+    "about.html",
+    "accessibility.html",
+    "auto-glass.html",
+    "auto-repair.html",
+    "battery-service.html",
+    "brakes-rotors.html",
+    "commercial-tires.html",
+    "concord.html",
+    "contact.html",
+    "cookies.html",
+    "finance.html",
+    "freedom-drive.html",
+    "index.html",
+    "locations.html",
+    "new-tires.html",
+    "north-tryon.html",
+    "oil-change.html",
+    "privacy.html",
+    "reviews.html",
+    "rim-repair.html",
+    "road-note-balance-vs-alignment.html",
+    "road-note-flat-tire.html",
+    "road-note-new-vs-used.html",
+    "road-note-roadside-ready.html",
+    "road-note-tire-size.html",
+    "road-note-tpms.html",
+    "road-notes.html",
+    "roadside.html",
+    "services.html",
+    "shocks-struts.html",
+    "suspension-steering.html",
+    "terms.html",
+    "tire-balancing.html",
+    "tire-installation.html",
+    "tire-repair.html",
+    "tire-rotation.html",
+    "tires.html",
+    "towing.html",
+    "tpms-service.html",
+    "used-tires.html",
+    "wheel-alignment.html"
+  ],
+  "visible_risk_copy": [],
+  "image_count": 193,
+  "unique_local_image_paths": 96,
+  "image_holds": {
+    "real_business_photo_required": 39,
+    "reserved_exact_subject_photo_needed": 0
+  },
+  "policy_pages": [
+    "privacy.html",
+    "accessibility.html",
+    "terms.html",
+    "cookies.html"
+  ],
+  "policy_links": "One static footer policy row; no runtime injection",
+  "mobile_action_bar": "Call / Directions / Check Size on small screens",
+  "robots_file": "robots.txt",
+  "sitemap_file": "sitemap.xml",
+  "canonical_status": "Provisional tiress4less.com pending owner DNS confirmation",
+  "measurement_status": "No analytics IDs activated; owner input required"
+}

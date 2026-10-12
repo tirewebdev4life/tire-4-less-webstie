@@ -1,0 +1,15 @@
+{
+  "routes": 36,
+  "route_errors": [],
+  "asset_errors": [],
+  "duplicate_ids": [],
+  "h1_issues": [],
+  "email_issues": [],
+  "visible_dev_copy": [],
+  "image_alt_issues": [],
+  "image_title_semantic_issues": [],
+  "js_syntax_failures": [],
+  "jsonld_failures": [],
+  "tpms_reserved": 2,
+  "alignment_real_hold": 1
+}

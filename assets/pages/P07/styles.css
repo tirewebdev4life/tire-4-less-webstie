@@ -1,0 +1,174 @@
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f7f7f4;color:#111;font-family:Arial,Helvetica,sans-serif;line-height:1.45}.skip-link{position:absolute;left:-999px}.skip-link:focus{left:12px;top:12px;background:#fff;padding:10px;z-index:999}.container{width:min(1180px,calc(100% - 42px));margin:auto}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}a{text-decoration:none;color:inherit}.eyebrow,.micro-label{font-size:10px;font-weight:900;letter-spacing:.14em;text-transform:uppercase}.eyebrow{color:#d92d27}.red{color:#c82924}.red-light{color:#ff7d77}h1,h2,h3,p{margin-top:0}h1,h2,h3{font-family:Impact,"Arial Narrow",Arial,sans-serif;line-height:.92;text-transform:uppercase;letter-spacing:-.025em}h1 span{color:#ef443e}.btn{display:inline-flex;min-height:45px;align-items:center;justify-content:center;padding:0 18px;border:1px solid transparent;font-size:10px;font-weight:900;letter-spacing:.09em;transition:.2s}.btn-red{background:#d92d27;color:#fff}.btn-red:hover{background:#ef3b34}.btn-red-light{background:#ff6f68;color:#1c0706}.btn-green{background:#72c82c;color:#071007}.btn-dark-outline,.btn-light-outline{border-color:#6c6f6b;color:#fff}.text-link-light{font-size:10px;font-weight:900;letter-spacing:.08em;color:#ff8e88}.utility-bar{background:#72c82c;font-size:10px;font-weight:800}.utility-inner{min-height:30px;display:flex;align-items:center;gap:12px}.utility-dot{width:6px;height:6px;border-radius:50%;background:#071007}.utility-link{margin-left:auto;font-weight:900}.utility-note{opacity:.75}.site-header{position:sticky;top:0;z-index:50;background:#070a07;color:#fff;border-bottom:1px solid #1c221c}.nav-wrap{height:70px;display:flex;align-items:center;gap:30px}.brand{display:inline-flex;align-items:baseline;font-weight:900}.brand-mini{font-size:12px}.brand-four{font-family:Impact,"Arial Narrow",sans-serif;color:#72c82c;font-size:34px;margin:0 2px}.main-nav{margin-left:auto;display:flex;gap:18px;align-items:center;font-size:9px;font-weight:900;letter-spacing:.08em}.main-nav>a,.nav-button{color:#fff}.active-link{color:#72c82c!important}.nav-item{position:relative}.nav-button{border:0;background:none;font:inherit;padding:24px 0;cursor:pointer}.dropdown{display:none;position:absolute;top:62px;left:-15px;width:190px;background:#101410;border:1px solid #252d24;padding:8px}.dropdown-right{left:auto;right:-15px}.dropdown a{display:block;padding:10px;color:#cad3c8}.has-menu:hover .dropdown{display:block}.menu-toggle{display:none;background:none;border:0}.menu-toggle span:not(.sr-only){display:block;width:25px;height:2px;background:#fff;margin:5px}.section{padding:88px 0}.split-head{display:grid;grid-template-columns:1.15fr .85fr;gap:60px;align-items:end;margin-bottom:44px}.section-head h2{font-size:clamp(48px,5vw,76px)}.section-intro{color:#6c706c}
+
+.repair-hero{position:relative;min-height:700px;background:#130706;color:#fff;overflow:hidden}.hero-photo,.hero-red,.hero-tread,.hero-asphalt,.hero-shade{position:absolute;inset:0}.hero-photo{background:url('assets/images/hero-placeholder.jpg') center/cover;filter:grayscale(1);opacity:.11}.hero-red{background:url('assets/textures/tire-repair-red.webp') center/cover;opacity:.72}.hero-tread{background:url('assets/textures/tire-tread.png') right center/cover;opacity:.26}.hero-asphalt{background:url('assets/textures/asphalt.png') center/cover;opacity:.11}.hero-shade{background:linear-gradient(90deg,#110504 0%,rgba(17,5,4,.90) 52%,rgba(17,5,4,.50))}.hero-grid{position:relative;min-height:700px;display:grid;grid-template-columns:1.15fr .58fr;gap:70px;align-items:center}.hero-copy{padding:70px 0}.repair-hero h1{font-size:clamp(64px,7vw,104px);max-width:900px}.hero-lede{font-size:17px;color:#d6c9c8;max-width:670px}.hero-actions{display:flex;gap:10px;margin:28px 0}.hero-micro{display:flex;gap:22px;flex-wrap:wrap;font-size:9px;font-weight:900;color:#c0afad}.hero-problem-card{background:rgba(23,8,7,.89);border:1px solid rgba(255,125,119,.25);padding:28px;box-shadow:0 24px 65px rgba(0,0,0,.28)}.repair-icon-wrap{width:64px;height:64px;border-radius:50%;display:grid;place-items:center;background:#fff;margin-bottom:32px}.repair-icon-wrap img{width:48px}.hero-problem-card h2{font-size:46px;margin:10px 0}.problem-list{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin:20px 0}.problem-list span{background:#2a0f0d;border:1px solid #47201d;padding:9px;font-size:9px;font-weight:900}.hero-problem-card>a{font-size:9px;font-weight:900;color:#ff7d77}
+
+.repair-request-float{position:relative;margin-top:-44px;z-index:5}.repair-request-bar{background:#fff;border-top:5px solid #d92d27;padding:16px;box-shadow:0 16px 44px rgba(0,0,0,.14)}.repair-request-bar fieldset{border:0;margin:0;padding:0;display:grid;grid-template-columns:1.45fr 1fr 1fr .85fr 1fr .85fr .95fr;gap:10px;align-items:end}.request-intro span,.request-intro strong,.request-intro small{display:block}.request-intro strong{font-family:Impact,"Arial Narrow",sans-serif;font-size:24px;text-transform:uppercase}.request-intro small{font-size:9px;color:#746b6a}.repair-request-bar label{font-size:8px;font-weight:900;letter-spacing:.09em}.repair-request-bar select,.repair-request-bar input{display:block;width:100%;margin-top:5px;background:#faf5f4;border:1px solid #ead9d7;padding:10px}.notes-field{grid-column:2/7}.form-success{grid-column:1/-1;background:#fde9e7;color:#9c211d;padding:10px;font-size:10px;margin:0}.repair-trust{background:#180a09;color:#fff;margin-top:28px}.trust-grid{display:grid;grid-template-columns:repeat(4,1fr)}.trust-grid>div{padding:24px;border-right:1px solid #35201e}.trust-grid span,.trust-grid strong,.trust-grid small{display:block}.trust-grid span{font-size:9px;color:#ff7d77;font-weight:900}.trust-grid strong{font-size:11px;margin-top:5px}.trust-grid small{font-size:9px;color:#a89290}
+
+.common-problems{background:#faf9f7}.problem-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.problem-grid article{position:relative;background:#fff;border:1px solid #e6dfdc;padding:24px;min-height:285px}.problem-grid article>span{position:absolute;right:20px;top:18px;font-size:9px;font-weight:900;color:#ac9b98}.problem-icon{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:#fde9e7;color:#c82924;font-size:20px;margin-bottom:38px}.problem-grid h3{font-size:30px}.problem-grid p{font-size:12px;color:#6b6f6a}.red-slash-transition{height:30px;background:#170a09 url('assets/textures/racing-slash.png') center/cover no-repeat;opacity:.92;border-top:4px solid #d92d27}
+
+.repair-vs-replace{position:relative;background:#170807;color:#fff;padding:92px 0;overflow:hidden}.decision-red,.decision-tread,.decision-asphalt,.decision-shade{position:absolute;inset:0}.decision-red{background:url('assets/textures/tire-repair-red.webp') right center/cover;opacity:.56}.decision-tread{background:url('assets/textures/tire-tread.png') center/cover;opacity:.24}.decision-asphalt{background:url('assets/textures/asphalt.png') center/cover;opacity:.12}.decision-shade{background:linear-gradient(90deg,#120605 0%,rgba(18,6,5,.88) 57%,rgba(18,6,5,.50))}.decision-grid{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:75px;align-items:center}.decision-grid h2{font-size:clamp(54px,5.5vw,82px)}.decision-grid>div:first-child>p:not(.eyebrow){color:#d2c6c4}.decision-cards{display:grid;grid-template-columns:1fr 1fr;gap:10px}.decision-cards>div{background:rgba(31,10,8,.82);border:1px solid #55302c;padding:22px}.decision-cards span{display:block;color:#ff7d77;font-size:9px;font-weight:900;margin-bottom:16px}.decision-cards strong{font-size:12px}.decision-cards p{font-size:10px;color:#b39c99;margin:6px 0 0}
+
+.how-section{background:#fff}.how-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:80px}.how-grid h2{font-size:clamp(52px,5vw,78px)}.how-grid>div:first-child>p:not(.eyebrow){color:#6b706b}.steps{border-top:4px solid #d92d27}.steps>div{display:grid;grid-template-columns:52px 1fr;gap:14px;padding:25px 0;border-bottom:1px solid #e3dcd9}.steps span{font-size:10px;color:#c82924;font-weight:900}.steps strong{font-size:13px}.steps p{grid-column:2;font-size:12px;color:#6d726d;margin:0}
+
+.signs-section{position:relative;background:#111;color:#fff;padding:82px 0;overflow:hidden}.signs-asphalt,.signs-red{position:absolute;inset:0}.signs-asphalt{background:url('assets/textures/asphalt.png') center/cover;opacity:.28}.signs-red{background:linear-gradient(90deg,rgba(118,14,10,.46),rgba(17,17,17,.20))}.signs-grid{position:relative;display:grid;grid-template-columns:.82fr 1.18fr;gap:72px;align-items:start}.signs-grid h2{font-size:clamp(50px,5vw,76px)}.signs-list{border-top:4px solid #d92d27}.signs-list>div{display:grid;grid-template-columns:48px 1fr;gap:12px;padding:19px 0;border-bottom:1px solid #333}.signs-list span{color:#ff7d77;font-size:9px;font-weight:900}.signs-list strong{font-size:12px}.signs-list small{grid-column:2;color:#a9aaa6}
+
+.repair-proof{position:relative;background:#110b0a;color:#fff;padding:92px 0;overflow:hidden}.proof-asphalt,.proof-tread{position:absolute;inset:0}.proof-asphalt{background:url('assets/textures/asphalt.png') center/cover;opacity:.25}.proof-tread{background:url('assets/textures/tire-tread.png') left center/cover;opacity:.16}.proof-grid{position:relative;display:grid;grid-template-columns:.72fr 1.28fr;gap:65px;align-items:center}.proof-grid h2{font-size:clamp(50px,5vw,76px)}.proof-grid>div:first-child>p:not(.eyebrow){color:#bdb4b2}.proof-gallery{display:grid;grid-template-columns:1.2fr .8fr;grid-template-rows:1fr 1fr;gap:10px;min-height:420px}.proof-shot{position:relative;display:flex;align-items:flex-end;padding:18px;background:#191211;border:1px solid #4a3532;overflow:hidden}.proof-shot:before{content:"";position:absolute;inset:0;background:url('assets/images/hero-placeholder.jpg') center/cover;filter:grayscale(1);opacity:.20}.proof-shot:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent,rgba(0,0,0,.80))}.proof-shot span{position:relative;z-index:2;font-size:8px;font-weight:900;letter-spacing:.08em}.hero-shot{grid-row:1/3}.proof-shot:nth-child(2):before{background-image:url('assets/textures/tire-repair-red.webp');opacity:.42}
+
+.roadside-route{background:#f7f7f4}.roadside-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:75px;align-items:center}.roadside-grid h2{font-size:clamp(50px,5vw,76px)}.roadside-grid>div:first-child>p:not(.eyebrow){color:#6a706a}.route-cards{display:grid;grid-template-columns:1fr 1fr;gap:12px}.route-cards>div{padding:28px;min-height:300px;display:flex;flex-direction:column}.shop-route{background:#fff;border:1px solid #e2dcda;border-top:5px solid #d92d27}.roadside-route-card{background:#10230b;color:#fff;border-top:5px solid #72c82c}.route-cards span{font-size:8px;font-weight:900;letter-spacing:.10em;color:#c82924}.roadside-route-card span{color:#72c82c}.route-cards strong{font-family:Impact,"Arial Narrow",sans-serif;font-size:30px;margin:16px 0}.route-cards p{font-size:12px;color:#687068}.roadside-route-card p{color:#b9c6b4}.route-cards .btn{margin-top:auto}
+
+.location-strip{background:#160b0a;color:#fff}.location-strip-grid{display:grid;grid-template-columns:repeat(3,1fr)}.location-strip-grid>div{padding:26px;border-right:1px solid #3a2522}.location-strip-grid>div:last-child{border-right:0}.location-strip-grid strong,.location-strip-grid a{display:block}.location-strip-grid strong{font-size:12px}.location-strip-grid a{margin-top:5px;color:#ff7d77;font-size:12px;font-weight:900}.location-strip-grid .directions-link{font-size:8px;color:#a5908d;letter-spacing:.08em}
+
+.faq-section{background:#fff}.faq-grid{display:grid;grid-template-columns:.72fr 1.28fr;gap:80px}.faq-grid h2{font-size:56px}.faq-grid>div:first-child>p:not(.eyebrow){color:#6c706c}.accordion details{border-top:1px solid #e2dcda}.accordion details:last-child{border-bottom:1px solid #e2dcda}.accordion summary{padding:20px 42px 20px 0;cursor:pointer;list-style:none;font-weight:800;position:relative}.accordion summary:after{content:"+";position:absolute;right:3px;font-size:22px;color:#d92d27}.accordion details[open] summary:after{content:"−"}.accordion details p{color:#6c706c;padding:0 42px 18px 0;margin:0}
+
+.related-services{background:#0c0b0b;color:#fff;padding:82px 0}.related-head{max-width:760px;margin-bottom:34px}.related-head h2{font-size:clamp(48px,5vw,74px)}.related-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.related-card{position:relative;min-height:300px;overflow:hidden}.related-texture,.related-scrim{position:absolute;inset:0}.used-related .related-texture{background:url('assets/textures/tire-tread.png') center/cover}.new-related .related-texture{background:url('assets/textures/new-tires-blue.webp') center/cover}.rim-related .related-texture{background:url('assets/textures/rim-purple.webp') center/cover}.road-related .related-texture{background:url('assets/textures/road-stripe.png') center/cover}.related-scrim{background:linear-gradient(180deg,rgba(0,0,0,.04),rgba(0,0,0,.88))}.related-content{position:relative;z-index:2;padding:24px;height:100%;display:flex;flex-direction:column;justify-content:flex-end}.related-content>span{font-size:9px;font-weight:900;color:#ff7d77}.related-content h3{font-size:34px;margin:7px 0}.related-content p{font-size:11px;color:#c6c2c0}.related-content strong{font-size:8px;letter-spacing:.09em;color:#fff}
+
+.final-cta{position:relative;background:#9f201c;color:#fff;padding:86px 0;overflow:hidden}.cta-red,.cta-tread,.cta-asphalt{position:absolute;inset:0}.cta-red{background:url('assets/textures/tire-repair-red.webp') center/cover;opacity:.58}.cta-tread{background:url('assets/textures/tire-tread.png') right center/cover;opacity:.12}.cta-asphalt{background:url('assets/textures/asphalt.png') center/cover;opacity:.11}.final-cta:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(35,4,3,.35),transparent 60%)}.cta-grid{position:relative;z-index:2;display:grid;grid-template-columns:1fr .55fr;gap:70px;align-items:center}.cta-grid h2{font-size:clamp(52px,5vw,78px)}.cta-grid p:not(.eyebrow){color:#f2dddd}.cta-actions{display:flex;flex-direction:column;gap:10px}
+
+.site-footer{background:#070907;color:#fff;padding:56px 0 20px}.footer-grid{display:grid;grid-template-columns:1.5fr repeat(4,1fr);gap:38px}.footer-brand p{max-width:300px;color:#98a297;font-size:12px}.footer-logo{margin-bottom:16px}.roadside-footer{color:#72c82c;font-size:10px;font-weight:900}.site-footer h3{font-size:10px;color:#72c82c}.footer-sub{margin-top:26px}.site-footer div>a:not(.brand):not(.roadside-footer){display:block;color:#b7c0b5;font-size:11px;margin:9px 0}.footer-bottom{border-top:1px solid #1c221c;margin-top:38px;padding-top:18px;display:flex;justify-content:space-between;color:#677166;font-size:9px}.mobile-dock{display:none}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #72c82c;outline-offset:3px}
+
+@media(max-width:1080px){.main-nav{gap:12px}.nav-cta{display:none}.hero-grid{grid-template-columns:1fr .65fr;gap:35px}.repair-request-bar fieldset{grid-template-columns:1.3fr 1fr 1fr .8fr}.notes-field{grid-column:1/-1}.problem-grid{grid-template-columns:repeat(2,1fr)}.related-grid{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:1.3fr repeat(2,1fr)}}
+@media(max-width:760px){body{padding-bottom:64px}.container{width:min(100% - 28px,1180px)}.utility-note{display:none}.nav-wrap{height:62px}.menu-toggle{display:block;margin-left:auto}.main-nav{display:none;position:absolute;left:0;right:0;top:62px;background:#0b0e0b;padding:18px 22px;flex-direction:column;align-items:stretch;gap:0}.main-nav.open{display:flex}.main-nav>a,.nav-button{display:block;width:100%;padding:13px 0;border-bottom:1px solid #1f271f;text-align:left}.dropdown{position:static;border:0}.has-menu:hover .dropdown{display:none}.has-menu.active .dropdown{display:block}.repair-hero{min-height:auto}.hero-grid{grid-template-columns:1fr;padding:60px 0}.hero-copy{padding:0}.repair-hero h1{font-size:54px}.hero-actions{flex-wrap:wrap}.repair-request-float{margin-top:0;background:#fff;padding:14px 0}.repair-request-bar{box-shadow:none;padding:0}.repair-request-bar fieldset{grid-template-columns:1fr 1fr}.request-intro,.notes-field,.form-success{grid-column:1/-1}.trust-grid{grid-template-columns:1fr 1fr}.section{padding:66px 0}.split-head,.decision-grid,.how-grid,.signs-grid,.proof-grid,.roadside-grid,.faq-grid,.cta-grid{grid-template-columns:1fr;gap:32px}.problem-grid{grid-template-columns:1fr 1fr}.decision-cards{grid-template-columns:1fr 1fr}.proof-gallery{min-height:360px}.route-cards{grid-template-columns:1fr}.location-strip-grid{grid-template-columns:1fr}.location-strip-grid>div{border-right:0;border-bottom:1px solid #3a2522}.related-grid{grid-template-columns:1fr 1fr}.footer-grid{grid-template-columns:1fr 1fr}.footer-brand{grid-column:1/-1}.footer-bottom{gap:20px}.mobile-dock{display:grid;grid-template-columns:repeat(3,1fr);position:fixed;left:0;right:0;bottom:0;z-index:80;background:#070a07;border-top:1px solid #283026}.mobile-dock a{min-height:62px;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;border-right:1px solid #202820}.mobile-dock a:first-child{color:#72c82c}.mobile-dock span{font-size:17px}.mobile-dock strong{font-size:8px}}
+@media(max-width:430px){.repair-hero h1{font-size:46px}.hero-actions{flex-direction:column}.btn{width:100%}.repair-request-bar fieldset,.problem-grid,.trust-grid,.decision-cards,.related-grid{grid-template-columns:1fr}.request-intro,.notes-field,.form-success{grid-column:auto}.problem-list{grid-template-columns:1fr}.proof-gallery{grid-template-columns:1fr;grid-template-rows:repeat(3,150px)}.hero-shot{grid-row:auto}.footer-grid{grid-template-columns:1fr}.footer-bottom{flex-direction:column}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+/* =========================================
+   P07 TIRE REPAIR — REFINEMENT / FREEZE PASS
+   ========================================= */
+
+.rhythm-marker{
+  min-height:26px;background:#f8f6f4;color:#746c69;
+  display:flex;align-items:center;justify-content:center;gap:9px;
+  font-size:7px;font-weight:900;letter-spacing:.12em
+}
+.rhythm-marker b{color:#d92d27}
+.rhythm-marker.dark-marker{background:#160907;color:#8d7471}
+.rhythm-marker.red-marker{background:#8e1d19;color:#f5d8d5}
+
+/* Hero: Red Service dominates; tread/asphalt are supporting textures. */
+.hero-red{opacity:.59;background-size:108% auto}
+.hero-tread{opacity:.17}
+.hero-asphalt{opacity:.075}
+.repair-hero:after{
+  content:"";position:absolute;inset:auto 0 0;height:160px;
+  background:linear-gradient(180deg,transparent,rgba(16,4,3,.23));pointer-events:none
+}
+.hero-grid{z-index:2}
+.hero-problem-card{
+  backdrop-filter:blur(2px);
+  box-shadow:0 26px 72px rgba(0,0,0,.26),inset 0 -4px rgba(255,125,119,.15)
+}
+.repair-icon-wrap{box-shadow:0 8px 20px rgba(0,0,0,.22)}
+
+/* Request bar */
+.repair-request-bar{border-top-width:4px}
+.repair-request-bar select,.repair-request-bar input{min-height:39px}
+.finder-submit{min-height:39px}
+.request-intro small{max-width:210px}
+
+/* Common problem cards */
+.problem-grid article{
+  border-top:3px solid transparent;
+  box-shadow:0 10px 24px rgba(95,25,21,.035);
+  transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease
+}
+.problem-grid article:hover{
+  transform:translateY(-3px);
+  border-top-color:#d92d27;
+  box-shadow:0 14px 30px rgba(95,25,21,.07)
+}
+.problem-icon{box-shadow:inset 0 0 0 1px rgba(217,45,39,.08)}
+
+/* Repair-vs-replace section */
+.decision-red{opacity:.45;background-size:108% auto}
+.decision-tread{opacity:.15}
+.decision-asphalt{opacity:.075}
+.decision-cards>div{
+  border-color:#603832;
+  box-shadow:inset 0 -3px rgba(255,125,119,.14)
+}
+
+/* Process */
+.steps>div{transition:background .15s ease}
+.steps>div:hover{background:#fbf7f6}
+.steps span{
+  display:grid;place-items:center;width:32px;height:32px;
+  background:#fde9e7;border:1px solid #f3d2cf
+}
+
+/* Warning signs */
+.signs-asphalt{opacity:.18}
+.signs-red{opacity:.78}
+.signs-list>div{transition:background .15s ease}
+.signs-list>div:hover{background:rgba(255,255,255,.02)}
+
+/* Proof section */
+.proof-asphalt{opacity:.16}
+.proof-tread{opacity:.10}
+.proof-shot{border-color:#55403c}
+.proof-shot span{
+  background:rgba(22,7,6,.82);padding:7px 9px;border-left:3px solid #ff7d77
+}
+.proof-shot:before{transition:transform .3s ease}
+.proof-shot:hover:before{transform:scale(1.03)}
+
+/* Shop vs Roadside routing */
+.route-cards>div{
+  box-shadow:0 12px 28px rgba(0,0,0,.05);
+  transition:transform .18s ease,box-shadow .18s ease
+}
+.route-cards>div:hover{
+  transform:translateY(-3px);
+  box-shadow:0 16px 34px rgba(0,0,0,.08)
+}
+.roadside-route-card{
+  background:
+    linear-gradient(rgba(10,28,8,.88),rgba(10,28,8,.88)),
+    url('assets/textures/road-stripe.png') center/cover
+}
+
+/* Supporting locations */
+.location-strip-grid .directions-link{margin-top:8px}
+.location-strip-grid .directions-link:hover{color:#fff}
+
+/* FAQ */
+.accordion details[open]{background:rgba(217,45,39,.025)}
+
+/* Related services: preserve sibling family identities */
+.related-card{
+  border-bottom:4px solid transparent;
+  transition:transform .2s ease,border-color .2s ease
+}
+.related-card:hover{transform:translateY(-4px)}
+.used-related{border-bottom-color:#72c82c}
+.new-related{border-bottom-color:#275cb8}
+.rim-related{border-bottom-color:#7c43ae}
+.road-related{border-bottom-color:#72c82c}
+.related-scrim{background:linear-gradient(180deg,rgba(0,0,0,.03),rgba(0,0,0,.90))}
+
+/* Final CTA */
+.cta-red{opacity:.46}
+.cta-tread{opacity:.075}
+.cta-asphalt{opacity:.06}
+.final-cta:after{background:linear-gradient(90deg,rgba(31,3,2,.40),transparent 60%)}
+
+/* Focus states */
+.hero-problem-card a:focus-visible,.problem-grid article:focus-within,
+.route-cards a:focus-visible,.related-card:focus-visible,.location-strip a:focus-visible,
+.proof-shot:focus-visible{
+  outline:3px solid #72c82c;outline-offset:3px
+}
+
+@media(max-width:760px){
+  .rhythm-marker{display:none}
+  .hero-red{background-size:cover;opacity:.46}
+  .hero-tread{opacity:.11}
+  .hero-asphalt{opacity:.04}
+  .decision-red{background-size:cover;opacity:.36}
+  .decision-tread{opacity:.09}
+  .signs-asphalt{opacity:.12}
+  .proof-gallery{gap:8px}
+}
+@media(max-width:430px){
+  .problem-grid article{min-height:235px}
+  .route-cards>div{min-height:270px}
+  .related-card{min-height:260px}
+}
